@@ -152,6 +152,7 @@ Current or former contributors to the GPL version
 * Dennis Schridde (devurandom): Linux and Windows Packaging, bug fixes
 * Dion Mendel (noid): Original Linux port, filename conversion to lowercase
 * Dmitry Marakasov (AMDmi3): FreeBSD support
+* (DrBenson): redhat-RPM packaging support, bux fixes
 * Evangelos Foutras (foutrelis): ArchLinux packaging
 * Giel van Schijndel (Giel/muggenhor): Debian and Windows support, bug fixes
 * (hidden-primary-net/Marc0/_Marc0_): CMake improvements
@@ -241,6 +242,7 @@ Current or former contributors to the GPL version
 * (chtsau): Taiwanese Chinese translation
 * Cyril Brulebois (kibi): French translation
 * Daniel Vijande (Saberuneko): Spanish translation
+* (DrBenson): Tranditional Chinese translation
 * (Dorian): Chinese translation
 * (Erlando): Estonian translation
 * Filipp Chertiev: Russian translation
