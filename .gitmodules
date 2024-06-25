@@ -62,9 +62,6 @@
 [submodule "data/terrain_overrides/high"]
 	path = data/terrain_overrides/high
 	url = https://github.com/Warzone2100/data-terrain-high.git
-[submodule "data/terrain_overrides/high-hq"]
-	path = data/terrain_overrides/high-hq
-	url = https://github.com/Warzone2100/data-terrain-high-hq.git
 [submodule "data/mods/campaign/reclamation"]
 	path = data/mods/campaign/reclamation
 	url = https://github.com/Warzone2100/reclamation.git
