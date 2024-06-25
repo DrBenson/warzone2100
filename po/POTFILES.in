@@ -164,9 +164,13 @@ data/mods/campaign/fractured-kingdom/script/campaign/transitionTech.js
 data/mods/campaign/fractured-kingdom/script/rules.js
 data/mods/campaign/fractured-kingdom/script/weather.js
 <<<<<<< HEAD
+<<<<<<< HEAD
 data/mods/campaign/fractured-kingdom/sequenceaudio/cam1/intro.txa
 =======
 >>>>>>> cf6b0d128 (Update Tranditional Chinese translation.)
+=======
+data/mods/campaign/fractured-kingdom/sequenceaudio/cam1/intro.txa
+>>>>>>> f8bcec1e9 (Update po template files from new mods of 'fractured-kingdom' and 'reclamation' for translate.)
 data/mods/campaign/fractured-kingdom/sequenceaudio/hint.txt
 data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt
 data/mods/campaign/fractured-kingdom/sequenceaudio/outseg1.txt
