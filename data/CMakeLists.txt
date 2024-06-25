@@ -518,6 +518,132 @@ else()
 	message(STATUS "WZ_INCLUDE_TERRAIN_HIGH is OFF. High terrain texture pack will not be part of build.")
 endif(WZ_INCLUDE_TERRAIN_HIGH)
 
+## High-HQ terrain overrides
+
+if (WZ_INCLUDE_TERRAIN_HIGH_HQ)
+
+	set(_terrain_overrides_high-hq_base_path "${CMAKE_CURRENT_SOURCE_DIR}/terrain_overrides/high-hq")
+
+	if (WZ_ENABLE_BASIS_UNIVERSAL AND NOT WZ_CI_DISABLE_BASIS_COMPRESS_TEXTURES)
+
+		set(_build_package "OFF")
+		if (WZ_DOWNLOAD_PREBUILT_PACKAGES)
+			# Try to download the prebuilt package
+			WZ_FETCH_PREBUILT_PACKAGE("${WZ_PREBUILT_TERRAIN_HIGH_HQ_DL_URL}" "high.wz" "${WZ_PREBUILT_TERRAIN_HIGH_HQ_DL_SHA512}" "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz" _dl_terrain_high_hq_result)
+			if (NOT _dl_terrain_high_hq_result)
+				# Download failed - WZ_FETCH_PREBUILT_PACKAGE already handles logging a message
+				set(_build_package "ON")
+			endif()
+		else()
+			set(_build_package "ON")
+		endif()
+
+		if (_build_package)
+			# Generate the package
+
+			if(NOT DEFINED BASIS_UNIVERSAL_CLI)
+				message(FATAL_ERROR "No basisu tool has been provided - set BASIS_UNIVERSAL_CLI to the path to basisu or disable WZ_ENABLE_BASIS_UNIVERSAL!")
+			endif()
+
+			message(STATUS "Configuring to build highq.wz package")
+
+			file(REMOVE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz")
+			file(REMOVE_RECURSE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq")
+			file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq/texpages")
+			file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq/tileset")
+
+			set(high-hq_texture_folders "texpages")
+			file(GLOB tertiles_dirs LIST_DIRECTORIES true RELATIVE "${_terrain_overrides_high-hq_base_path}" CONFIGURE_DEPENDS "${_terrain_overrides_high-hq_base_path}/texpages/tertilesc*hw-*")
+			list(APPEND high-hq_texture_folders ${tertiles_dirs})
+
+			foreach(tex_folder ${high-hq_texture_folders})
+
+				file(GLOB ALL_TEXPAGES LIST_DIRECTORIES false CONFIGURE_DEPENDS "${_terrain_overrides_high-hq_base_path}/${tex_folder}/*.png")
+				# Split into _nm, _sm, and everything else (regular texpages)
+				file(GLOB TEXPAGES_NM LIST_DIRECTORIES false CONFIGURE_DEPENDS "${_terrain_overrides_high-hq_base_path}/${tex_folder}/*_nm.png")
+				file(GLOB TEXPAGES_SM LIST_DIRECTORIES false CONFIGURE_DEPENDS "${_terrain_overrides_high-hq_base_path}/${tex_folder}/*_sm.png")
+				unset(TEXPAGES_TEX)
+				list(APPEND TEXPAGES_TEX ${ALL_TEXPAGES})
+				list(REMOVE_ITEM TEXPAGES_TEX ${TEXPAGES_NM} ${TEXPAGES_SM})
+
+				set(_output_dir "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq/${tex_folder}")
+				if (tex_folder STREQUAL "texpages")
+					set(_terrain_high-hq_max_size 1024)
+				else()
+					set(_terrain_high-hq_max_size 256) # decals are 256x256
+				endif()
+
+				WZ_BASIS_ENCODE_TEXTURES(OUTPUT_DIR "${_output_dir}" TYPE "TEXTURE" RESIZE "${_terrain_high-hq_max_size}" UASTC_LEVEL 3 ENCODING_TARGET texture_encoding_high-hq TARGET_FOLDER data ALL FILES ${TEXPAGES_TEX})
+				list(APPEND PROCESSED_TEXTURE_FILES ${TEXPAGES_TEX})
+				WZ_BASIS_ENCODE_TEXTURES(OUTPUT_DIR "${_output_dir}" TYPE "NORMALMAP" RESIZE "${_terrain_high-hq_max_size}" UASTC_LEVEL 3 ENCODING_TARGET texture_encoding_high-hq TARGET_FOLDER data ALL FILES ${TEXPAGES_NM})
+				list(APPEND PROCESSED_TEXTURE_FILES ${TEXPAGES_NM})
+				WZ_BASIS_ENCODE_TEXTURES(OUTPUT_DIR "${_output_dir}" TYPE "SPECULARMAP" RESIZE "${_terrain_high-hq_max_size}" UASTC_LEVEL 3 ENCODING_TARGET texture_encoding_high-hq TARGET_FOLDER data ALL FILES ${TEXPAGES_SM})
+				list(APPEND PROCESSED_TEXTURE_FILES ${TEXPAGES_SM})
+
+			endforeach()
+
+			set(_base_output_dir "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq")
+			file(GLOB_RECURSE ALL_TEXPAGES LIST_DIRECTORIES false CONFIGURE_DEPENDS "${_terrain_overrides_high-hq_base_path}/texpages/*.*" "${_terrain_overrides_high-hq_base_path}/tileset/*.*")
+			list(APPEND ALL_TEXPAGES_unprocessed ${ALL_TEXPAGES})
+			list(REMOVE_ITEM ALL_TEXPAGES_unprocessed ${PROCESSED_TEXTURE_FILES})
+			foreach(TEXPAGE_FILE ${ALL_TEXPAGES_unprocessed})
+				file(RELATIVE_PATH _output_name "${_terrain_overrides_high-hq_base_path}" "${TEXPAGE_FILE}")
+				message(STATUS "Copy unprocessed image file: ${_output_name}")
+				add_custom_command(OUTPUT "${_base_output_dir}/${_output_name}"
+					COMMAND "${CMAKE_COMMAND}"
+					ARGS -E copy_if_different "${TEXPAGE_FILE}" "${_base_output_dir}/${_output_name}"
+					WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/base/texpages"
+					DEPENDS "${TEXPAGE_FILE}"
+					VERBATIM
+				)
+				list(APPEND TEXTURE_UNPROCESSED_LIST "${_base_output_dir}/${_output_name}")
+			endforeach()
+
+			add_custom_target(texture_staging_high-hq DEPENDS ${TEXTURE_UNPROCESSED_LIST})
+			set_property(TARGET texture_staging_high-hq PROPERTY FOLDER "data")
+
+			unset(PROCESSED_TEXTURE_FILES)
+			unset(ALL_TEXPAGES)
+			unset(TEXTURE_UNPROCESSED_LIST)
+			unset(ALL_TEXPAGES_unprocessed)
+
+			COMPRESS_ZIP(OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz"
+				COMPRESSION_LEVEL 0
+				PATHS
+					"texpages"
+					"tileset"
+				WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq"
+				BUILD_ALWAYS_TARGET data_terrain_overrides_high-hq
+				IGNORE_GIT
+				QUIET
+			)
+			add_dependencies(data_terrain_overrides_high-hq texture_encoding_high-hq texture_staging_high-hq)
+
+		endif(_build_package)
+	else()
+		if(WZ_ENABLE_BASIS_UNIVERSAL AND WZ_CI_DISABLE_BASIS_COMPRESS_TEXTURES)
+			message(STATUS "WZ_CI_DISABLE_BASIS_COMPRESS_TEXTURES is set, textures will not be compressed as part of build. This should only be used for selected CI runs.")
+		endif()
+
+		file(REMOVE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz")
+
+		COMPRESS_ZIP(OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz"
+			COMPRESSION_LEVEL 0
+			PATHS
+				"texpages"
+				"tileset"
+			WORKING_DIRECTORY "${_terrain_overrides_high-hq_base_path}"
+			BUILD_ALWAYS_TARGET data_terrain_overrides_high-hq
+			IGNORE_GIT
+			QUIET
+		)
+		set_property(TARGET data_terrain_overrides_high-hq PROPERTY FOLDER "data")
+	endif()
+
+else()
+	message(STATUS "WZ_INCLUDE_TERRAIN_HIGH_HQ is OFF. High-HQ terrain texture pack will not be part of build.")
+endif(WZ_INCLUDE_TERRAIN_HIGH_HQ)
+
 #########################
 # Compress data archives
 
