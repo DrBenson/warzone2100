@@ -17,6 +17,10 @@ export LC_COLLATE=C
 find data -name '*.json' -type f \
 	-not \( -path 'data/mp/multiplay/maps/*' -prune \) \
 	-not \( -path 'data/base/guidetopics/*' -prune \) \
+<<<<<<< HEAD
+=======
+	-not \( -path 'data/mods/campaign/wz2100_camclassic/*' -prune \) \
+>>>>>>> cf6b0d128 (Update Tranditional Chinese translation.)
 	-exec \
 	python3 po/scripts/parseJson.py '{}' ';' |
 	python3 po/scripts/aggregateParsedJson.py > po/custom/fromJson.txt
@@ -42,7 +46,8 @@ find lib src data po -type f \
 	|
 	grep -e '\.c\(pp\|xx\)\?$' -e 'data.*strings.*\.txt$' -e 'data.*sequenceaudio.*\.tx.$' -e '\.slo$' -e '\.rmsg$' -e 'po/custom/.*\.txt' -e '\.js$' -e '*\.txa$' |
 	grep -v -e '\.lex\.c\(pp\|xx\)\?$' -e '\.tab\.c\(pp\|xx\)\?$' -e 'lib/netplay/miniupnpc/*' -e 'lib/betawidget/*' -e '_moc\.' -e 'po/custom/files.js' |
-	grep -v -e '_lexer\.cpp' -e '_parser\.cpp' -e 'lib/[^/]*/3rdparty/.*' |
+	grep -v -e '_lexer\.cpp' -e '_parser\.cpp' -e 'lib/[^/]*/3rdparty/.*' -e '\.txa$' |
+	grep -v -e 'data/mods/campaign/fractured-kingdom/messages/*' -e 'data/mods/campaign/fractured-kingdom/messages/strings/*' |
 	sort >> po/POTFILES.in
 
 #########################################
