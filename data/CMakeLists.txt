@@ -220,7 +220,11 @@ if(WZ_ENABLE_BASIS_UNIVERSAL AND NOT WZ_CI_DISABLE_BASIS_COMPRESS_TEXTURES)
 
 	set(_output_dir "${CMAKE_CURRENT_BINARY_DIR}/base/texpages")
 	file(MAKE_DIRECTORY "${_output_dir}")
-	set(_terrain_max_size 1024)
+	if(WZ_INCLUDE_TERRAIN_HIGH_HQ)
+		set(_terrain_max_size 2048)
+	else()
+		set(_terrain_max_size 1024)
+	endif()
 	if(CMAKE_SYSTEM_NAME MATCHES "Emscripten")
 		set(_terrain_max_size 512)
 	endif()
@@ -371,14 +375,22 @@ set_property(TARGET data_terrain_overrides_classic PROPERTY FOLDER "data")
 
 if (WZ_INCLUDE_TERRAIN_HIGH)
 
-	set(_terrain_overrides_high_base_path "${CMAKE_CURRENT_SOURCE_DIR}/terrain_overrides/high")
+	if (WZ_INCLUDE_TERRAIN_HIGH_HQ)
+		set(_terrain_overrides_high_base_path "${CMAKE_CURRENT_SOURCE_DIR}/terrain_overrides/high-hq")
+	else()
+		set(_terrain_overrides_high_base_path "${CMAKE_CURRENT_SOURCE_DIR}/terrain_overrides/high")
+	endif()
 
 	if (WZ_ENABLE_BASIS_UNIVERSAL AND NOT WZ_CI_DISABLE_BASIS_COMPRESS_TEXTURES)
 
 		set(_build_package "OFF")
 		if (WZ_DOWNLOAD_PREBUILT_PACKAGES)
 			# Try to download the prebuilt package
-			WZ_FETCH_PREBUILT_PACKAGE("${WZ_PREBUILT_TERRAIN_HIGH_DL_URL}" "high.wz" "${WZ_PREBUILT_TERRAIN_HIGH_DL_SHA512}" "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz" _dl_terrain_high_result)
+			if (WZ_INCLUDE_TERRAIN_HIGH_HQ)
+				WZ_FETCH_PREBUILT_PACKAGE("${WZ_PREBUILT_TERRAIN_HIGH_HQ_DL_URL}" "high.wz" "${WZ_PREBUILT_TERRAIN_HIGH_HQ_DL_SHA512}" "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz" _dl_terrain_high_result)
+			else()
+				WZ_FETCH_PREBUILT_PACKAGE("${WZ_PREBUILT_TERRAIN_HIGH_DL_URL}" "high.wz" "${WZ_PREBUILT_TERRAIN_HIGH_DL_SHA512}" "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz" _dl_terrain_high_result)
+			endif()
 			if (NOT _dl_terrain_high_result)
 				# Download failed - WZ_FETCH_PREBUILT_PACKAGE already handles logging a message
 				set(_build_package "ON")
@@ -397,9 +409,16 @@ if (WZ_INCLUDE_TERRAIN_HIGH)
 			message(STATUS "Configuring to build high.wz package")
 
 			file(REMOVE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz")
-			file(REMOVE_RECURSE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high")
-			file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high/texpages")
-			file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high/tileset")
+			if (WZ_INCLUDE_TERRAIN_HIGH_HQ)
+				file(REMOVE_RECURSE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq")
+				file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq/texpages")
+				file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high-hq/tileset")
+			else()
+				file(REMOVE_RECURSE "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high")
+				file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high/texpages")
+				file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high/tileset")
+			endif()
+			message(STATUS "** Make high.wz package folder on ${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides.")
 
 			set(high_texture_folders "texpages")
 			file(GLOB tertiles_dirs LIST_DIRECTORIES true RELATIVE "${_terrain_overrides_high_base_path}" CONFIGURE_DEPENDS "${_terrain_overrides_high_base_path}/texpages/tertilesc*hw-*")
@@ -417,7 +436,11 @@ if (WZ_INCLUDE_TERRAIN_HIGH)
 
 				set(_output_dir "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high/${tex_folder}")
 				if (tex_folder STREQUAL "texpages")
-					set(_terrain_high_max_size 1024)
+					if (WZ_INCLUDE_TERRAIN_HIGH_HQ)
+						set(_terrain_high_max_size 2048)
+					else()
+						set(_terrain_high_max_size 1024)
+					endif()
 				else()
 					set(_terrain_high_max_size 256) # decals are 256x256
 				endif()
@@ -456,12 +479,13 @@ if (WZ_INCLUDE_TERRAIN_HIGH)
 			unset(TEXTURE_UNPROCESSED_LIST)
 			unset(ALL_TEXPAGES_unprocessed)
 
+			set(_WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high")
 			COMPRESS_ZIP(OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high.wz"
 				COMPRESSION_LEVEL 0
 				PATHS
 					"texpages"
 					"tileset"
-				WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/terrain_overrides/high"
+					WORKING_DIRECTORY "${_WORKING_DIRECTORY}"
 				BUILD_ALWAYS_TARGET data_terrain_overrides_high
 				IGNORE_GIT
 				QUIET
@@ -489,6 +513,7 @@ if (WZ_INCLUDE_TERRAIN_HIGH)
 		set_property(TARGET data_terrain_overrides_high PROPERTY FOLDER "data")
 	endif()
 
+			message(STATUS "Texture file high.wz build complete.")
 else()
 	message(STATUS "WZ_INCLUDE_TERRAIN_HIGH is OFF. High terrain texture pack will not be part of build.")
 endif(WZ_INCLUDE_TERRAIN_HIGH)
