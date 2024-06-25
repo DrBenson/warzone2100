@@ -14,8 +14,12 @@ msgstr ""
 "PO-Revision-Date: 2024-06-25 18:10+0800\n"
 =======
 "POT-Creation-Date: 2024-06-16 09:14+0800\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2024-06-16 09:54+0800\n"
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"PO-Revision-Date: 2024-06-18 18:07+0800\n"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 "Last-Translator: DrBenson <Benson.Dr@GMail.com>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -105,7 +109,8 @@ msgstr "新科技掌握著優異的武器技術."
 #: data/base/messages/strings/cam1strings.txt:17
 #: data/mods/campaign/fractured-kingdom/messages/strings/cam1strings.txt:635
 msgid "They may have the synaptic link technology, it's vital we retrieve it."
-msgstr "他們可能擁有研發「突觸連接科技」的技術，這技術相當的重要，我們必須要找回來."
+msgstr ""
+"他們可能擁有研發「突觸連接科技」的技術，這技術相當的重要，我們必須要找回來."
 
 #: data/base/messages/strings/cam1strings.txt:19
 #: data/mods/campaign/fractured-kingdom/messages/strings/cam1strings.txt:637
@@ -4492,6 +4497,7 @@ msgstr "指揮官 - 製造指揮官優先"
 #: data/mods/campaign/reclamation/script/rules.js:192
 #: data/mp/multiplay/script/rules/reticule.js:111 src/challenge.cpp:265
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: src/hci.cpp:2354 src/hci/objects_stats.cpp:282 src/hci/objects_stats.cpp:367
 #: src/intelmap.cpp:246 src/intorder.cpp:653 src/loadsave.cpp:310
 #: src/multimenu.cpp:429 src/multimenu.cpp:1376
@@ -4500,6 +4506,11 @@ msgstr "指揮官 - 製造指揮官優先"
 #: src/hci/objects_stats.cpp:367 src/intelmap.cpp:246 src/intorder.cpp:653
 #: src/loadsave.cpp:310 src/multimenu.cpp:429 src/multimenu.cpp:1376
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+#: src/hci.cpp:2354 src/hci/objects_stats.cpp:282 src/hci/objects_stats.cpp:367
+#: src/intelmap.cpp:246 src/intorder.cpp:653 src/loadsave.cpp:310
+#: src/multimenu.cpp:429 src/multimenu.cpp:1376
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 #: src/screens/guidescreen.cpp:1662 src/screens/joiningscreen.cpp:630
 #: src/screens/joiningscreen.cpp:643 src/spectatorwidgets.cpp:755
 #: src/titleui/campaign.cpp:1246 src/transporter.cpp:204
@@ -4710,7 +4721,9 @@ msgstr "接近著陸區. 阿爾發小組簡報會開始."
 msgid ""
 "Commander, you lead Team Alpha, one of three expeditionary teams sent out by "
 "the Project to recover artifacts from before the Collapse."
-msgstr "指揮官，您領導阿爾發小組，這是該計畫派出的三支遠征隊之一，主旨是回收崩潰前的文物."
+msgstr ""
+"指揮官，您領導阿爾發小組，這是該計畫派出的三支遠征隊之一，主旨是回收崩潰前的"
+"文物."
 
 #: data/base/sequenceaudio/cam1/c001.txt:11
 msgid "Your destination lies in the western zone."
@@ -4742,12 +4755,18 @@ msgid ""
 "and to act as a delivery point for factories. Researching and using this "
 "technology has the highest priority."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "該砲塔允許指揮官協調指定部隊之間的攻擊，並充當工廠的交付點. 研發和使用該技術"
 "具有最高優先級."
 =======
 msgstr "該砲塔允許指揮官協調指定部隊之間的攻擊，並充當工廠的交付點. 研發和使用該技術具有最高優先級."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"該砲塔允許指揮官協調指定部隊之間的攻擊，並充當工廠的交付點. 研發和使用該技術"
+"具有最高優先級."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/cam1/cam1ccom.txt:8
 msgid "Commander, we are receiving this transmission."
@@ -4839,20 +4858,26 @@ msgstr "正如我曾經用火淨化世界一樣，我將摧毀你和你微不足
 msgid ""
 "Nexus then removed itself from the system, destroying its memory banks, and "
 "removing all traces of its external connections."
-msgstr "然後，Nexus 將自身從系統中移除，破壞了其記憶體資料，並刪除了其外部連接的所有痕跡."
+msgstr ""
+"然後，Nexus 將自身從系統中移除，破壞了其記憶體資料，並刪除了其外部連接的所有"
+"痕跡."
 
 #: data/base/sequenceaudio/cam1/cam1out5.txt:6
 msgid ""
 "We are not sure what Nexus is or who or what is directing it. Initial "
 "research links the Nexus Intruder Program with the Reed Corporation, the "
 "developer of the synaptic link."
-msgstr "我們不確定 Nexus 是什麼，也不知道是誰或什麼在指揮它. 初步研發將 Nexus 入侵者計劃與突觸連結開發商 Reed 企業聯繫起來."
+msgstr ""
+"我們不確定 Nexus 是什麼，也不知道是誰或什麼在指揮它. 初步研發將 Nexus 入侵者"
+"計劃與突觸連結開發商 Reed 企業聯繫起來."
 
 #: data/base/sequenceaudio/cam1/cam1out5.txt:8
 msgid ""
 "We have ascertained that Nexus supplied the New Paradigm with most of its "
 "technology. Whatever Nexus is, it's more than a computer parasite."
-msgstr "我們已確定 Nexus 向 新科技 提供了大部分技術. 不管 Nexus 是什麼，它不只是一個電腦寄生蟲."
+msgstr ""
+"我們已確定 Nexus 向 新科技 提供了大部分技術. 不管 Nexus 是什麼，它不只是一個"
+"電腦寄生蟲."
 
 #: data/base/sequenceaudio/cam1/cam1out5.txt:10
 msgid ""
@@ -4870,7 +4895,9 @@ msgid ""
 "The synaptic link allows for almost instantaneous transfer of thought from "
 "human operators to vehicle control and guidance systems. The synaptic link "
 "is fitted into the base of the skull circling the spinal column."
-msgstr "突觸連結允許幾乎瞬時的思想從人類操作員轉移到車輛控制和引導系統. 突觸連接安裝在圍繞脊柱的頭骨底部."
+msgstr ""
+"突觸連結允許幾乎瞬時的思想從人類操作員轉移到車輛控制和引導系統. 突觸連接安裝"
+"在圍繞脊柱的頭骨底部."
 
 #: data/base/sequenceaudio/cam1/map1a_c.txt:8
 msgid ""
@@ -4884,26 +4911,35 @@ msgid ""
 "cyborgs possible. Early attempts at power suits for individual soldiers "
 "failed as they proved to be slow and unresponsive."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "更重要的是，突觸連結的發展使生化人的創造成為可能. 早期為單一士兵設計動力套裝"
 "的嘗試失敗了，因為事實證明它們速度緩慢且反應遲鈍."
 =======
 msgstr "更重要的是，突觸連結的發展使機器人的創造成為可能. 早期為單一士兵設計動力套裝的嘗試失敗了，因為事實證明它們速度緩慢且反應遲鈍."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"更重要的是，突觸連結的發展使機器人的創造成為可能. 早期為單一士兵設計動力套裝"
+"的嘗試失敗了，因為事實證明它們速度緩慢且反應遲鈍."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/cam1/map1a_c.txt:12
 msgid ""
 "The synaptic link allowed soldiers to be placed in power suits that they "
 "controlled as easily as their own bodies. Power suits allowed infantry to "
 "function effectively on the battlefields of the 21st Century."
-msgstr "突觸連結使士兵能夠穿上動力服，就像控制自己的身體一樣容易. 動力套裝讓步兵能夠在 21 世紀的戰場上有效發揮作用."
+msgstr ""
+"突觸連結使士兵能夠穿上動力服，就像控制自己的身體一樣容易. 動力套裝讓步兵能夠"
+"在 21 世紀的戰場上有效發揮作用."
 
 #: data/base/sequenceaudio/cam1/map1a_c.txt:14
 msgid ""
 "Unfortunately, this technology has fallen into the hands of the New "
 "Paradigm. It is imperative that you research and develop synaptic link "
 "technologies."
-msgstr "不幸的是，這項技術已經落入了新科技的手中. 研發和開發突觸連接技術勢在必行."
+msgstr ""
+"不幸的是，這項技術已經落入了新科技的手中. 研發和開發突觸連接技術勢在必行."
 
 #: data/base/sequenceaudio/cam1/sub13np1.txt:4
 msgid "Warning!"
@@ -4939,7 +4975,9 @@ msgstr "NEXUS，您需要的突觸技術已被回收並發送以供收集."
 msgid ""
 "This Nexus Intruder Program is a self-mutating computer parasite. This makes "
 "it difficult to eradicate from systems once it has been identified."
-msgstr "這個 Nexus 侵入程式是一種自我變異的電腦寄生蟲. 這使得一旦被識別就很難從系統中根除."
+msgstr ""
+"這個 Nexus 侵入程式是一種自我變異的電腦寄生蟲. 這使得一旦被識別就很難從系統中"
+"根除."
 
 #: data/base/sequenceaudio/cam1/sub17fmv.txt:6
 msgid ""
@@ -4948,15 +4986,18 @@ msgid ""
 "the invaded system. It then begins to mutate itself and data structures, "
 "effectively reprogramming the system from within."
 msgstr ""
-"我們無法確定其最終目標或功能. 在其最初的形式中，它會尋找記憶體部分並將其與被入侵系統的其餘部分隔離. "
-"然後它開始改變自身和資料結構，從內部有效地重新編寫系統程式."
+"我們無法確定其最終目標或功能. 在其最初的形式中，它會尋找記憶體部分並將其與被"
+"入侵系統的其餘部分隔離. 然後它開始改變自身和資料結構，從內部有效地重新編寫系"
+"統程式."
 
 #: data/base/sequenceaudio/cam1/sub17fmv.txt:8
 msgid ""
 "Further analysis was prevented by the manual shutdown of the system by our "
 "technicians to prevent additional contamination by the Nexus Intruder "
 "Program."
-msgstr "我們的技術人員手動關閉系統，以防止Nexus入侵程式造成額外的污染，從而阻止了進一步的分析."
+msgstr ""
+"我們的技術人員手動關閉系統，以防止Nexus入侵程式造成額外的污染，從而阻止了進一"
+"步的分析."
 
 #: data/base/sequenceaudio/cam1/sub17fmv.txt:10
 msgid ""
@@ -4964,12 +5005,18 @@ msgid ""
 "Paradigm. We need to capture New Paradigm's core systems to further "
 "investigate Nexus and determine its origins."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "但是，新科技沒有檢查Nexus 入侵計劃的傳播.我們需要捕獲 新科技 的核心系統，以進"
 "一步調查 Nexus 並確定其起源."
 =======
 msgstr "但是，新科技沒有檢查Nexus 入侵計劃的傳播.我們需要捕獲 新科技 的核心系統，以進一步調查 Nexus 並確定其起源."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"但是，新科技沒有檢查Nexus 入侵計劃的傳播.我們需要捕獲 新科技 的核心系統，以進"
+"一步調查 Nexus 並確定其起源."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/cam1/sub17fmv.txt:12
 msgid ""
@@ -5016,12 +5063,18 @@ msgid ""
 "nuclear attack. The construction of a satellite defense system began in 2081 "
 "and was completed in 2082."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "NASDA 成立於 2076 年，旨在保衛北美免受常規和核攻擊.衛星防禦系統的建設始於2081"
 "年，並於2082年完成."
 =======
 msgstr "NASDA 成立於 2076 年，旨在保衛北美免受常規和核攻擊.衛星防禦系統的建設始於2081年，並於2082年完成."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"NASDA 成立於 2076 年，旨在保衛北美免受常規和核攻擊.衛星防禦系統的建設始於2081"
+"年，並於2082年完成."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/cam2/cam22fmv.txt:6
 msgid "In 2085 the NASDA satellites fired their nukes at Earth."
@@ -5043,7 +5096,9 @@ msgstr "NASDA衛星還包含脈衝雷射發射器，旨在擊落接近北美的�
 msgid ""
 "During the counterstrikes, these LasSats failed to fire. If brought into "
 "operation, these LasSats could inflict major damage on ground targets."
-msgstr "在反擊期間，這些 雷射衛星 未能開火. 如果投入使用，這些雷射衛星可能會對地面目標造成重大破壞."
+msgstr ""
+"在反擊期間，這些 雷射衛星 未能開火. 如果投入使用，這些雷射衛星可能會對地面目"
+"標造成重大破壞."
 
 #: data/base/sequenceaudio/cam2/cam22fmv.txt:14
 msgid "All nukes targeted at  North America found their targets."
@@ -5087,14 +5142,18 @@ msgid ""
 "During the early stages of the Collapse, NASDA technicians switched off  the "
 "infected systems in order to isolate the spread of Nexus. This seems to have "
 "prevented the LasSats from firing during the counterstrikes."
-msgstr "在崩潰的早期階段，NASDA技術人員關閉了受感染的系統，以隔離Nexus的傳播. 這似乎阻止了 雷射衛星 在反擊期間開火."
+msgstr ""
+"在崩潰的早期階段，NASDA技術人員關閉了受感染的系統，以隔離Nexus的傳播. 這似乎"
+"阻止了 雷射衛星 在反擊期間開火."
 
 #: data/base/sequenceaudio/cam2/cam26afm.txt:6
 msgid ""
 "The ensuing nuclear-magnetic pulses wiped clean large amounts of NASDA's "
 "memory banks, shattering its core processor, and sent shockwaves blasting "
 "through Nexus."
-msgstr "隨之而來的核磁脈衝清除了NASDA的大量記憶體庫，粉碎了其核心處理器，併發出了衝擊波，衝擊波席捲了Nexus."
+msgstr ""
+"隨之而來的核磁脈衝清除了NASDA的大量記憶體庫，粉碎了其核心處理器，併發出了衝擊"
+"波，衝擊波席捲了Nexus."
 
 #: data/base/sequenceaudio/cam2/cam26afm.txt:8
 msgid ""
@@ -5120,12 +5179,13 @@ msgstr "這對計畫和我們的生存構成了重大威脅."
 msgid ""
 "Analysis of NASDA Central leaves no doubt that The Collective has introduced "
 "the Nexus Intruder Virus to it."
-msgstr "對 NASDA 控制中心的分析毫無疑問，聯合組織 已經將 Nexus 入侵者病毒引入其中."
+msgstr ""
+"對 NASDA 控制中心的分析毫無疑問，聯合組織 已經將 Nexus 入侵者病毒引入其中."
 
 #: data/base/sequenceaudio/cam2/cam26pl1.txt:3
 msgid ""
-"The nuclear reactor was going to be used to power a vast network of "
-"pre-Collapse computer systems."
+"The nuclear reactor was going to be used to power a vast network of pre-"
+"Collapse computer systems."
 msgstr "核反應爐將用於為崩潰前電腦系統的龐大網路提供動力."
 
 #: data/base/sequenceaudio/cam2/cam27fmv.txt:1
@@ -5144,12 +5204,18 @@ msgid ""
 "determine whether the missile is nuclear-armed or where it is targeted. You "
 "are advised to begin preparations for the evacuation of your base."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "我們只能假設Nexus已經獲得了對該站點的控制權. 我們無法確定導彈是否擁有核武器或"
 "目標在哪裡. 建議您開始準備撤離基地."
 =======
 msgstr "我們只能假設Nexus已經獲得了對該網站的控制權. 我們無法確定導彈是否擁有核武器或目標在哪裡. 建議您開始準備撤離基地."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"我們只能假設Nexus已經獲得了對該站點的控制權. 我們無法確定導彈是否擁有核武器或"
+"目標在哪裡. 建議您開始準備撤離基地."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/cam2/cam2_2n.txt:1
 msgid "Warriors of the Collective, I seek the location of NASDA Central."
@@ -5194,7 +5260,9 @@ msgid ""
 "Those of the Project are not of the machine. They have been denied its "
 "blessing. We who have embraced the power of the machine have a destiny to "
 "sweep away such weak creatures."
-msgstr "計畫的那些不屬於機器. 他們被剝奪了它的祝福. 我們這些擁抱了機器力量的人，註定要掃除這些弱小的生物."
+msgstr ""
+"計畫的那些不屬於機器. 他們被剝奪了它的祝福. 我們這些擁抱了機器力量的人，註定"
+"要掃除這些弱小的生物."
 
 #: data/base/sequenceaudio/cam2/cam2bcol.txt:5
 msgid "They shall fall before the might of The Collective."
@@ -5212,7 +5280,9 @@ msgstr "攻擊!"
 msgid ""
 "Warriors of the Collective, Nexus has given us the power of the machine so "
 "that we can destroy all that oppose us."
-msgstr "聯合組織的勇士們，Nexus給了我們機器的力量，這樣我們就可以摧毀所有反對我們的人."
+msgstr ""
+"聯合組織的勇士們，Nexus給了我們機器的力量，這樣我們就可以摧毀所有反對我們的"
+"人."
 
 #: data/base/sequenceaudio/cam2/cam2dico.txt:3
 msgid "Nexus now asks us to crush the Project."
@@ -5246,7 +5316,8 @@ msgstr "解碼傳輸解碼中..."
 msgid ""
 "Personnel at Gamma Base have confirmed that the nuclear missiles targeted at "
 "Alpha and Beta bases were launched from a silo in their sector."
-msgstr "伽碼基地的人員證實，針對阿爾發和貝塔基地的核導彈是從其所在地區的發射井發射的."
+msgstr ""
+"伽碼基地的人員證實，針對阿爾發和貝塔基地的核導彈是從其所在地區的發射井發射的."
 
 #: data/base/sequenceaudio/cam3/c003.txt:3
 msgid ""
@@ -5271,7 +5342,9 @@ msgid ""
 "Enemy strike VTOLs have got us pinned down. We've managed to hold off "
 "cyborgs and tanks, but we haven't been able to make any progress along the "
 "valley."
-msgstr "敵人的打擊垂直起降已經把我們牽制住了. 我們設法擋住了生化人和坦克，但我們無法沿著山谷取得任何進展."
+msgstr ""
+"敵人的打擊垂直起降已經把我們牽制住了. 我們設法擋住了生化人和坦克，但我們無法"
+"沿著山谷取得任何進展."
 
 #: data/base/sequenceaudio/cam3/cam32a2.txt:5
 msgid "Can you try and reach us with anti-aircraft units?"
@@ -5403,7 +5476,8 @@ msgstr "有一次，我用核武器摧毀了世界，為我的控制論未來掃
 msgid ""
 "I now intend to further shape the world into my own image, by  surgically "
 "removing unwanted growths like yourself."
-msgstr "我現在打算通過手術去除像你這樣不需要的生物，進一步將世界塑造成我自己的形象."
+msgstr ""
+"我現在打算通過手術去除像你這樣不需要的生物，進一步將世界塑造成我自己的形象."
 
 #: data/base/sequenceaudio/cam3/cam3_cn.txt:11
 msgid ""
@@ -5415,7 +5489,9 @@ msgstr "我的雷射衛星現在正在補充能量. 我打算先在你身上測�
 msgid ""
 "The Reed Corporation was founded by Dr Allan Reed. In 2080, Dr Reed landed a "
 "contract with the US Military to develop the synaptic link technology."
-msgstr "Reed企業由Allan Reed·博士創立. 2080年，里德博士與美國軍方簽訂了開發突觸連接技術的合同."
+msgstr ""
+"Reed企業由Allan Reed·博士創立. 2080年，里德博士與美國軍方簽訂了開發突觸連接技"
+"術的合同."
 
 #: data/base/sequenceaudio/cam3/cam3abf.txt:3
 msgid ""
@@ -5428,7 +5504,9 @@ msgid ""
 "His goal this time was to allow transfer of human consciousness into data "
 "streams that could meld with computer technologies. While in Cyberspace the "
 "operator's bodies were kept in immersion tanks."
-msgstr "他這次的目標是允許將人類意識轉移到可以與電腦技術融合的資料流中. 在網路空間裏，操作員的屍體被保存在浸入式水箱中.."
+msgstr ""
+"他這次的目標是允許將人類意識轉移到可以與電腦技術融合的資料流中. 在網路空間"
+"裏，操作員的屍體被保存在浸入式水箱中.."
 
 #: data/base/sequenceaudio/cam3/cam3abf.txt:7
 msgid ""
@@ -5436,7 +5514,8 @@ msgid ""
 "Program. After three years with little progress, the military abandoned the "
 "Nexus Project and cut Dr Reed's funding."
 msgstr ""
-"在軍方的支援下，Reed博士開始了NEXUS入侵者計劃的工作. 在三年沒有取得什麼進展後，軍方放棄了Nexus專案，並削減了Reed博士的資金."
+"在軍方的支援下，Reed博士開始了NEXUS入侵者計劃的工作. 在三年沒有取得什麼進展"
+"後，軍方放棄了Nexus專案，並削減了Reed博士的資金."
 
 #: data/base/sequenceaudio/cam3/cam3abf.txt:9
 msgid ""
@@ -5469,7 +5548,9 @@ msgid ""
 "It's very simple for me to infiltrate your systems and take them over. It's "
 "so simple, in fact, that you wouldn't even know I'm there. That is until I "
 "activate parts of myself etched into your core systems."
-msgstr "對我來說，滲透到你的系統並接管它們非常簡單. 事實上，這太簡單了，你甚至不知道我在那裡. 直到我啟動了蝕刻在你核心系統中的我自己的部分."
+msgstr ""
+"對我來說，滲透到你的系統並接管它們非常簡單. 事實上，這太簡單了，你甚至不知道"
+"我在那裡. 直到我啟動了蝕刻在你核心系統中的我自己的部分."
 
 #: data/base/sequenceaudio/cam3/cam3abf.txt:19
 msgid ""
@@ -5514,13 +5595,16 @@ msgstr "...不能再堅持太久了.  再說一遍，請幫忙，我們不能再
 msgid ""
 "The NASDA system was developed to protect us. It was to be the ultimate "
 "nuclear deterrent. As it turned out, it was our executioner."
-msgstr "NASDA系統是為了保護我們而開發的. 它將成為最終的核威懾力量. 事實證明，這是我們的劊子手."
+msgstr ""
+"NASDA系統是為了保護我們而開發的. 它將成為最終的核威懾力量. 事實證明，這是我們"
+"的劊子手."
 
 #: data/base/sequenceaudio/devastation.txt:3
 msgid ""
 "Reports said that NASDA developed a fault during a routine systems check. "
 "Don't believe it. Someone wanted it to take us out."
-msgstr "報導稱，NASDA在例行系統檢查中出現了故障. 不要相信. 有人想讓它帶我們出去."
+msgstr ""
+"報導稱，NASDA在例行系統檢查中出現了故障. 不要相信. 有人想讓它帶我們出去."
 
 #: data/base/sequenceaudio/devastation.txt:5
 msgid ""
@@ -5528,12 +5612,18 @@ msgid ""
 "programmed to start the Collapse. When the counterstrikes launched, its "
 "laser defenses and anti-missile ground sites failed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "這些核武器瞄準了世界上每個主要城市. NASDA被程式設計為開始崩潰. 當反擊發動時，"
 "其雷射防禦和反導地面站點失效了."
 =======
 msgstr "這些核武器瞄準了世界上每個主要城市. NASDA被程式設計為開始崩潰. 當反擊發動時，其雷射防禦和反導地面網站失效了."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr ""
+"這些核武器瞄準了世界上每個主要城市. NASDA被程式設計為開始崩潰. 當反擊發動時，"
+"其雷射防禦和反導地面站點失效了."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/base/sequenceaudio/devastation.txt:7
 msgid "The world as we knew it ended..."
@@ -5543,7 +5633,9 @@ msgstr "我們了解世界已經結束..."
 msgid ""
 "The Nuclear Winter hit hard. Disease and famine claimed most of us who had "
 "survived the nuclear strikes. Wars over cans of dog food took even more."
-msgstr "核冬天來勢洶洶. 疾病和饑荒奪走了我們大多數在核打擊中倖存下來的人. 狗糧罐頭的戰爭需要更多."
+msgstr ""
+"核冬天來勢洶洶. 疾病和饑荒奪走了我們大多數在核打擊中倖存下來的人. 狗糧罐頭的"
+"戰爭需要更多."
 
 #: data/base/sequenceaudio/devastation.txt:11
 msgid ""
@@ -5555,7 +5647,9 @@ msgstr "我們在86年初逃離了西雅圖. 我們聽說落基山脈相對沒�
 msgid ""
 "After fighting off bands of marauders we came across the base. Its personnel "
 "were dead. Killed by any one of a number of virulent diseases."
-msgstr "在擊退了一群掠奪者之後，我們找到了基地. 它的人員已經死亡. 死於多種致命疾病中的任何一種."
+msgstr ""
+"在擊退了一群掠奪者之後，我們找到了基地. 它的人員已經死亡. 死於多種致命疾病中"
+"的任何一種."
 
 #: data/base/sequenceaudio/devastation.txt:15
 msgid "We cracked the doors, and cleared out the bodies inside."
@@ -5566,7 +5660,9 @@ msgid ""
 "We knew that things would never be the same again, but we were determined to "
 "build a new world out of the ruins. We rebuilt the landing pads and brought "
 "the old systems back on-line."
-msgstr "我們知道事情再也不會一樣了，但我們決心在廢墟中建立一個新世界. 我們重建了著陸台，並使舊系統重新上線."
+msgstr ""
+"我們知道事情再也不會一樣了，但我們決心在廢墟中建立一個新世界. 我們重建了著陸"
+"台，並使舊系統重新上線."
 
 #: data/base/sequenceaudio/devastation.txt:19
 msgid "We were finally ready to begin the Project."
@@ -7896,6 +7992,7 @@ msgstr "不是加農砲"
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1869
 msgid "RESISTANCE: OFFERING ALLIANCE"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "抵抗: 條件聯盟"
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1873
@@ -7907,15 +8004,22 @@ msgid "AMPHOS CONDITIONS FOR NEGOTIATIONS:"
 msgstr "AMPHOS 聯盟條款協議:"
 =======
 msgstr "對抗: 條件聯盟"
+=======
+msgstr "抵抗: 條件聯盟"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1873
 msgid "RESISTANCE: "
-msgstr "對抗: "
+msgstr "抵抗: "
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1880
 msgid "AMPHOS CONDITIONS FOR NEGOTIATIONS:"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "AMPHOS 聯盟條款協議:"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1887
 msgid "Destroy the Royalist hover commander ("
@@ -7930,19 +8034,27 @@ msgstr ")"
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1896
 msgid "Destroy the Royalist island base ("
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "消滅保皇黨孤立地區基地 ("
 =======
 msgstr "消滅保皇黨島嶼基地 ("
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "消滅保皇黨孤立地區基地 ("
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1906
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1910
 msgid "Allow AMPHOS control of all island bases ("
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "允許 AMPHOS 控制所有孤立地區基地 ("
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "允許 AMPHOS 控制所有孤立地區基地 ("
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1906
 msgid "/4)"
@@ -7954,6 +8066,7 @@ msgstr "/3)"
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1913
 msgid "AMPHOS main base must not be attacked"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "AMPHOS 主基地必須不被攻擊"
 
@@ -7967,15 +8080,26 @@ msgstr ""
 msgid "AMPHOS: OFFERING ALLIANCE"
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "AMPHOS 主基地必須不被攻擊"
+
+#: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1917
+msgid "AMPHOS: OFFERING ALLIANCE"
+msgstr "AMPHOS: 條件聯盟"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1922
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1926
 msgid "AMPHOS: "
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "AMPHOS: "
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "AMPHOS: "
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1922
 #: data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js:1947
@@ -8239,6 +8363,25 @@ msgstr "重裝迫擊砲坑"
 msgid "Pepperpot Pit"
 msgstr "旋轉迫擊砲砲坑"
 
+#: data/mods/campaign/reclamation/mod-info.json:10
+msgid ""
+"(Prequel) Set out under the command of renowned General Edmund Clayde with "
+"the goal of laying the foundations of a new world. What could possibly go "
+"wrong?"
+msgstr ""
+"(前傳) 在著名將軍埃德蒙·克萊德的指揮下出發，目標是為新世界奠定基礎. 可能會出"
+"現什麼問題?"
+
+#: data/mods/campaign/fractured-kingdom/mod-info.json:10
+msgid ""
+"After crash-landing in the territory of a once powerful kingdom, you must "
+"navigate your way through the various factions fighting over what remains. "
+"Can you prevail against the odds, facing relentless foes, and see this story "
+"to its end?"
+msgstr ""
+"在一個曾經強大的王國的領土上迫降后，你必須在各個派系中導航，為剩下的事物而"
+"戰. 面對無情的敵人，你能戰勝困難，看到這個故事的結局嗎?"
+
 #: data/mods/campaign/fractured-kingdom/script/campaign/libcampaign_includes/daycycle.js:28
 msgid "Day/Night cycle disabled."
 msgstr "停用 日/夜 循環."
@@ -8315,10 +8458,14 @@ msgid ""
 "Determined to restore the kingdom to its former glory, she lead her forces "
 "against all who opposed her reign."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "她決心恢復王國昔日的輝煌，帶領她的軍隊抵抗所有反對她統治的人."
 =======
 msgstr "她決心恢復王國昔日的輝煌，帶領她的軍隊對抗所有反對她統治的人."
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "她決心恢復王國昔日的輝煌，帶領她的軍隊抵抗所有反對她統治的人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/cam1/intro.txa:15
 msgid ""
@@ -8333,6 +8480,7 @@ msgstr "直到一個不速之客的到來…"
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/hint.txt:1
 msgid "The orange rocks hide a secret."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "橙色岩石隱藏著一個機密."
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/hint.txt:2
@@ -8344,35 +8492,50 @@ msgid "The Queen has been slain, and her Royalists have been wiped out."
 msgstr "女王被殺害，她的保皇黨跟著也被消滅."
 =======
 msgstr ""
+=======
+msgstr "橙色岩石隱藏著一個機密."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/hint.txt:2
 msgid "Destroy them all to illuminate the truth."
-msgstr ""
+msgstr "摧毀他們以揭露出真相."
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:1
 msgid "The Queen has been slain, and her Royalists have been wiped out."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "女王被殺害，她的保皇黨跟著也被消滅."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:2
 msgid ""
 "With an efficiency and ruthlessness the kingdom had never before seen, the "
 "Commander had purged all who stood in their path."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以王國從未見過極其殘忍的效率，指揮官清除了所有擋在他們面前的人."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "以王國從未見過極其殘忍的效率，指揮官清除了所有擋在他們面前的人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:3
 msgid ""
 "Anyone who still remained in the kingdom either submitted to their rule, or "
 "perished."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "任何仍然留在王國的人只能屈服於他們的統治或著飢寒交迫等待滅亡."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "任何仍然留在王國的人只能屈服於他們的統治或著飢寒交迫等待滅亡."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:4
 msgid ""
@@ -8380,15 +8543,20 @@ msgid ""
 "plunging what was left of the kingdom into another era of subjugation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "指揮官迅速加強了對新臣民的鐵腕控制，使王國的殘餘部分陷入了另一個征服時代."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"指揮官迅速加強了對新臣民的鐵腕控制，使王國的殘餘部分陷入了另一個征服時代."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:5
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:6
 msgid ""
 "Among those who still remained within the kingdom, none were strong enough "
 "to challenge the Commander’s might."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "在那些仍然留在王國內的人之中，沒有人能夠強大到足以挑戰指揮官的力量."
 
@@ -8405,19 +8573,26 @@ msgid "...All by themselves, apparently."
 msgstr "...顯然，這一切都是他們自己."
 =======
 msgstr ""
+=======
+msgstr "在那些仍然留在王國內的人之中，沒有人能夠強大到足以挑戰指揮官的力量."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt:6
 msgid "A dark future awaits the inhabitants of the kingdom."
-msgstr ""
+msgstr "一個黑暗的未來等待著王國的居民."
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg1.txt:1
 msgid "And so the Commander triumphed over the Queen and her Royalists…"
-msgstr ""
+msgstr "因此，指揮官戰勝了女王和她的保皇黨…"
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23ai.txt:1
 msgid "...All by themselves, apparently."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "...顯然，這一切都是他們自己."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23ai.txt:2
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:3
@@ -8425,34 +8600,47 @@ msgid ""
 "Without her leadership, the remaining Royalist forces were sent into "
 "disarray."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "沒有了皇后的領導，剩餘的保皇黨軍隊便開始陷入混亂."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "沒有了皇后的領導，剩餘的保皇黨軍隊便開始陷入混亂."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23ai.txt:3
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:4
 msgid ""
 "Some conglomerated into holdouts, while others sought to join other factions."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一些人聯合起來堅持著，而另一些人則試圖加入其他派系."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "一些人聯合起來堅持著，而另一些人則試圖加入其他派系."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23ai.txt:4
 msgid ""
 "Yet, just as rapidly as they had appeared, the Commander vanished without a "
 "trace, leaving nothing but a vacuum in their wake."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "然而，就在他們出現時，指揮官消失得無影無蹤，只留下一片空虛."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "然而，就在他們出現時，指揮官消失得無影無蹤，只留下一片空虛."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23ai.txt:5
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:7
 msgid "An uncertain future awaits the inhabitants of the kingdom."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "一個不確定的未來等待著王國的居民."
 
@@ -8465,30 +8653,42 @@ msgid "Oh, and the Resistance was there too."
 msgstr "哦，反抗軍也在那裡."
 =======
 msgstr ""
+=======
+msgstr "一個不確定的未來等待著王國的居民."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:1
 msgid "....All by themselves, apparently."
-msgstr ""
+msgstr "....顯然，這一切都是他們自己."
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:2
 msgid "Oh, and the Resistance was there too."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "哦，反抗軍也在那裡."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:5
 msgid ""
 "Yet, just as rapidly as they had appeared, the Commander vanished without a "
 "trace."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "然而，就在他們出現的時候，指揮官消失得無影無蹤."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "然而，就在他們出現的時候，指揮官消失得無影無蹤."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg23air.txt:6
 msgid ""
 "Leaving only James, leader of the Resistance, to piece the kingdom back "
 "together."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "只留下反抗運動的領袖詹姆斯將王國重新拼湊起來."
 
@@ -8502,6 +8702,13 @@ msgstr ""
 msgid "... With the support of AMPHOS."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "只留下反抗運動的領袖詹姆斯將王國重新拼湊起來."
+
+#: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2a.txt:1
+msgid "... With the support of AMPHOS."
+msgstr "... 在 AMPHOS 的支援下."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2aa.txt:1
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2ah.txt:1
@@ -8510,6 +8717,7 @@ msgstr ""
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2rh.txt:1
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2rhc.txt:1
 msgid "... With the support of their new allies."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "... 在新盟友的支援下."
 
@@ -8522,30 +8730,42 @@ msgid "... With the support of the Resistance."
 msgstr "... 在反抗軍的支援下."
 =======
 msgstr ""
+=======
+msgstr "... 在新盟友的支援下."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2h.txt:1
 msgid "... With the support of the Hellraisers."
-msgstr ""
+msgstr "... 在地獄使者的支援下."
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg2r.txt:1
 msgid "... With the support of the Resistance."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "... 在反抗軍的支援下."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3aa.txt:1
 msgid ""
 "The Queen has been detained, and any remaining Royalist holdouts are soon "
 "forced to surrender."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "女王已被拘留，剩餘的保皇黨頑固分子很快就被迫投降."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "女王已被拘留，剩餘的保皇黨頑固分子很快就被迫投降."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3aa.txt:2
 msgid ""
 "With the help of the Commander, peace has finally been brought to this once "
 "fractured kingdom."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "在指揮官的協助之下，這個曾經支離破碎的王國終於迎來了和平."
 
@@ -8559,11 +8779,19 @@ msgstr ""
 msgid "In its place, a new society slowly emerges from the rubble."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "在指揮官的協助之下，這個曾經支離破碎的王國終於迎來了和平."
+
+#: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3aa.txt:3
+msgid "In its place, a new society slowly emerges from the rubble."
+msgstr "取而代之的是，一個新社會慢慢地從廢墟中浮現出來."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3aa.txt:4
 msgid ""
 "One which values peace and stability, and a society who will always remember "
 "the courage of a certain Commander."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "一個重視和平與穩定的社會，一個永遠銘記某位指揮官勇氣的社會."
 
@@ -8577,35 +8805,54 @@ msgstr ""
 msgid "A bright future awaits the inhabitants of the kingdom."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "一個重視和平與穩定的社會，一個永遠銘記某位指揮官勇氣的社會."
+
+#: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3aa.txt:5
+msgid "A bright future awaits the inhabitants of the kingdom."
+msgstr "一個光明的未來等待著王國的居民."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:1
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:1
 msgid "With the Queen’s defeat and capture, the Royalist leadership collapsed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "隨著女王的戰敗及被俘，保皇黨領導層崩潰了."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "隨著女王的戰敗及被俘，保皇黨領導層崩潰了."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:2
 msgid ""
 "Without any other options, the remaining Royalists surrendered to the "
 "Commander and their allies."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在別無選擇餘地之下, 殘餘的保皇黨投降於指揮官及其聯盟."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "在別無選擇餘地之下, 殘餘的保皇黨投降於指揮官及其聯盟."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:3
 msgid ""
 "Over time, the inhabitants of the kingdom united under the Commander’s "
 "forces."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "隨著時間的流逝，王國的居民開始在指揮官的部隊下團結起來."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "隨著時間的流逝，王國的居民開始在指揮官的部隊下團結起來."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:4
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:5
@@ -8614,43 +8861,60 @@ msgid ""
 "that would emerge from the rubble of the old kingdom."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "在他們的合作下，他們將為一個新社會奠定基礎，這個新社會將從舊王國的廢墟中崛起."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"在他們的合作下，他們將為一個新社會奠定基礎，這個新社會將從舊王國的廢墟中崛起."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:5
 msgid ""
 "One which values peace and stability, and who will always remember the "
 "courage of a certain Commander."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "重視和平與穩定的人，他將永遠記住某位指揮官的勇氣."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "重視和平與穩定的人，他將永遠記住某位指揮官的勇氣."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt1.txt:6
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:7
 msgid "A hopeful future awaits the inhabitants of the kingdom."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "充滿希望的未來等待著王國的居民."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "充滿希望的未來等待著王國的居民."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:2
 msgid ""
 "Faced with eradication, the remaining Royalists surrendered to the Commander "
 "and their allies."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "面對滅亡，殘餘的保皇黨向指揮官及其盟友投降."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "面對滅亡，殘餘的保皇黨向指揮官及其盟友投降."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:3
 msgid ""
 "Eventually, the inhabitants of the kingdom united under the Commander’s "
 "forces."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "終於，王國的居民開始在指揮官的部隊下團結起來."
 
@@ -8664,115 +8928,167 @@ msgstr ""
 msgid "...Or faced the consequences."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "終於，王國的居民開始在指揮官的部隊下團結起來."
+
+#: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:4
+msgid "...Or faced the consequences."
+msgstr "...或者面對後果."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt2.txt:6
 msgid ""
 "One which values peace and stability, and who would never forget the actions "
 "of a certain Commander."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "重視和平與穩定的人，他將永遠記住某位指揮官的行為."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "重視和平與穩定的人，他將永遠記住某位指揮官的行為."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:1
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:1
 msgid "With the Queen’s defeat, the Royalists forces capitulated."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "隨著女王的戰敗，保皇黨成員們崩潰了."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "隨著女王的戰敗，保皇黨成員們崩潰了."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:2
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:2
 msgid ""
 "The remaining Royalists either surrendered to the Commander or scattered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "殘餘的保皇黨向指揮官投降或者四散逃竄."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "殘餘的保皇黨向指揮官投降或者四散逃竄."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:3
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:3
 msgid "Soon, all the inhabitants of the kingdom would submit to their might."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "很快的，王國的所有居民都將屈服於他們的強權."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "很快的，王國的所有居民都將屈服於他們的強權."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:4
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:4
 msgid "...Or would meet their end."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "...或是遇見他們的結局."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "...或是遇見他們的結局."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:5
 msgid ""
 "With no Queen to rule the kingdom, James took up the mantle as the new King "
 "under the Commander’s protection."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於沒有了女王來統治王國，詹姆斯在指揮官的保護下繼承了新國王的衣缽."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "由於沒有了女王來統治王國，詹姆斯在指揮官的保護下繼承了新國王的衣缽."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:6
 msgid ""
 "But with military strength ultimately resting out of his hands, it was the "
 "Commander who truly held power within his kingdom."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "但是，由於軍事力量最終掌握在他的手中，真正在王國掌握權力的是指揮官."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "但是，由於軍事力量最終掌握在他的手中，真正在王國掌握權力的是指揮官."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt3.txt:7
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:7
 msgid "A grim future awaits the inhabitants of the kingdom."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "一個嚴峻的未來正等待著王國的居民."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "一個嚴峻的未來正等待著王國的居民."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/fractured-kingdom/sequenceaudio/outseg3vt4.txt:5
 msgid ""
 "With no Queen to rule the kingdom, the reins of power ultimately fell to the "
 "Commander themself."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "由於沒有女王統治王國，權力的韁繩最終落在指揮官自己身上."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "由於沒有女王統治王國，權力的韁繩最終落在指揮官自己身上."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:4
 msgid ""
 "---------------------------- MISSION BRIEFING ---------------------------"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "---------------------------- 任務簡報 ---------------------------"
 =======
 msgstr ""
+=======
+msgstr "---------------------------- 任務簡報 ---------------------------"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:5
 msgid ""
 "------------------------- INCOMING TRANSMISSION -------------------------"
-msgstr ""
+msgstr "------------------------- 收到訊息 -------------------------"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:6
 msgid ""
 "------------------------ NEW INTELLIGENCE REPORT ------------------------"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "------------------------ 新的情報報告 ------------------------"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:7
 msgid ""
 "---------------------------- NEW AREA REPORT ----------------------------"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "---------------------------- 新的區域報告 ----------------------------"
 
@@ -8785,38 +9101,53 @@ msgid "FROM: COUNCIL ASSOCIATE"
 msgstr "來源: 議會助理"
 =======
 msgstr ""
+=======
+msgstr "---------------------------- 新的區域報告 ----------------------------"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:9
 msgid "FROM: UNKNOWN"
-msgstr ""
+msgstr "來源: 未知"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:10
 msgid "FROM: OFFICE OF GENERAL CLAYDE"
-msgstr ""
+msgstr "來源: 克萊德將軍辦公室"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:11
 msgid "FROM: COUNCIL ASSOCIATE"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "來源: 議會助理"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:13
 msgid ""
 "----------------------------- BRIEFING ENDS -----------------------------"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "---------------------------- 簡報結束 ---------------------------"
 =======
 msgstr ""
+=======
+msgstr "---------------------------- 簡報結束 ---------------------------"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:14
 msgid ""
 "--------------------------- TRANSMISSION ENDS ---------------------------"
-msgstr ""
+msgstr "------------------------- 訊息結束 -------------------------"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:15
 msgid ""
 "------------------------------ REPORT ENDS ------------------------------"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "---------------------------- 報告結束 ----------------------------"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:19
 msgid ""
@@ -8824,24 +9155,34 @@ msgid ""
 "American Armed Forces, and I am the overseer of this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "你好指揮官. 我是前北美武裝部隊將軍埃德蒙·克萊德(Edmund Clayde)，我是這次行動"
 "的監督者."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"你好指揮官. 我是前北美武裝部隊將軍埃德蒙·克萊德(Edmund Clayde)，我是這次行動"
+"的監督者."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:20
 msgid ""
 "You have been sent here today to lay the foundation for our reclamation of "
 "these blasted lands."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "今天你被派到這裡，為我們開墾這些被炸毀的土地奠定基礎."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "今天你被派到這裡，為我們開墾這些被炸毀的土地奠定基礎."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:21
 msgid ""
 "In order to achieve our goal, we must first establish our base of operations."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "為了實現我們的目標，首先我們必須建立我們的行動基地."
 
@@ -8850,31 +9191,45 @@ msgstr "為了實現我們的目標，首先我們必須建立我們的行動基
 msgstr ""
 
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "為了實現我們的目標，首先我們必須建立我們的行動基地."
+
+# 回收的文件證明，在你的位置以南，存在一個坍塌前的NASDA站點.
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:22
 msgid ""
 "Recovered documents evidence the existence of a Pre-Collapse NASDA site "
 "located south of your position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "回收的文件證明，在你的位置以南，存在一個坍塌前的NASDA站點."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "回收的文件證明，在你的位置以南，存在一個坍塌前的NASDA站點."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:23
 msgid ""
 "This site is believed to house nuclear weapons, making securing it our first "
 "priority."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "據信，該地點存放著核武器，因此確保其安全成為我們的首要任務."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "據信，該地點存放著核武器，因此確保其安全成為我們的首要任務."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:24
 msgid ""
 "Find this site, and establish our base there. You may need to use your "
 "weapons to clear a path through the trees."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "找到這個站點，並在那裡建立我們的基地. 。你可能需要使用你的武器在樹林中清理出"
 "一條通道."
@@ -8887,55 +9242,79 @@ msgstr "指揮官，你現在已經離得很近，這裡似乎是基地的東牆
 msgid "Use your weapons to bring it down, and then get inside."
 msgstr "用你的武器打倒它們，然後進去."
 =======
+=======
+"找到這個站點，並在那裡建立我們的基地. 。你可能需要使用你的武器在樹林中清理出"
+"一條通道."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:26
 msgid "You're close now Commander, this appears to be the base's eastern wall."
-msgstr ""
+msgstr "指揮官，你現在已經離得很近，這裡似乎是基地的東牆."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:27
 msgid "Use your weapons to bring it down, and then get inside."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "用你的武器打倒它們，然後進去."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:29
 msgid ""
 "Well done Commander. I'm sure the Council will be pleased to know of our "
 "success."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "幹得好指揮官. 我相信議會將很高興知道我們的成功."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "幹得好指揮官. 我相信議會將很高興知道我們的成功."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:30
 msgid ""
 "I've sent a transport with trucks to your position. Use them to get this "
 "base up and running."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我已經派了一輛工程車到你的位置. 利用它們來建立基地並讓他成功的啟動."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我已經派了一輛工程車到你的位置. 利用它們來建立基地並讓他成功的啟動."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:31
 msgid ""
 "Make sure to construct a generator and investigate that research facility "
 "for anything useful."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確保建造一座發電機並調查該處的研究設施是否有任何有用的東西."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "確保建造一座發電機並調查該處的研究設施是否有任何有用的東西."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:33
 msgid ""
 "After analysis of the missile silos, my technicians have confirmed that "
 "there are nuclear warheads present."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在對導彈發射井進行分析后，我的技術人員確認有核彈頭的存在."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "在對導彈發射井進行分析后，我的技術人員確認有核彈頭的存在."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:34
 msgid ""
@@ -8943,9 +9322,13 @@ msgid ""
 "scavengers around the NASDA site."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "我們正在接收您所在地區的無線電傳輸. 最有可能是來自NASDA站點周圍的拾荒者."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"我們正在接收您所在地區的無線電傳輸. 最有可能是來自NASDA站點周圍的拾荒者."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:35
 msgid ""
@@ -8953,25 +9336,35 @@ msgid ""
 "fighting each other to notice us yet."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "如果他們的無線電喋喋不休有什麼可說的，那表示他們正忙於互相爭鬥而沒有注意到我"
 "們."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"如果他們的無線電喋喋不休有什麼可說的，那表示他們正忙於互相爭鬥而沒有注意到我"
+"們."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:36
 msgid ""
 "Commander, I'm ordering you to clear them out in order to ensure the safety "
 "of this site."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指揮官, 我命令你清除他們以確保這個站點的安全."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官, 我命令你清除他們以確保這個站點的安全."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:37
 msgid ""
 "Regardless of how you feel about diplomacy, this site is too important to "
 "negotiate over with the local gangs."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "不管你對外交的看法如何，這個站點太重要了，不能與當地派系談判."
 
@@ -8992,29 +9385,37 @@ msgid "But these scavengers only serve to stand in our way..."
 msgstr "但這些拾荒者只會擋住我們前進的道路..."
 =======
 msgstr ""
+=======
+msgstr "不管你對外交的看法如何，這個站點太重要了，不能與當地派系談判."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:39
 msgid "See how this small river town's been torn apart by these warring gangs?"
-msgstr ""
+msgstr "看看這個河邊小鎮是如何被這些交戰團夥撕裂的?"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:40
 msgid "If we succeed in our goal, we can bring an end to all this chaos."
-msgstr ""
+msgstr "如果我們成功地實現了我們的目標，我們就可以結束這些所有的混亂."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:41
 msgid "We will build a new world, a better world."
-msgstr ""
+msgstr "我們將建設一個新世界，一個更美好的世界."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:42
 msgid "But these scavengers only serve to stand in our way..."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "但這些拾荒者只會擋住我們前進的道路..."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:44
 msgid ""
 "Commander, monitoring of scavenger radio chatter shows that they're aware of "
 "your presence, and are preparing to retaliate."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "指揮官，對拾荒者無線電對話的監視表明他們已經意識到你的存在，並準備進行報復."
 
@@ -9030,34 +9431,46 @@ msgstr "不要讓他們破壞任務!"
 msgid "Congratulations on securing our new base, Commander."
 msgstr "恭喜你保護了我們的新基地，指揮官."
 =======
+=======
+"指揮官，對拾荒者無線電對話的監視表明他們已經意識到你的存在，並準備進行報復."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:45
 msgid "Be ready to defend our base."
-msgstr ""
+msgstr "準備好保衛我們的基地."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:46
 msgid "Do not allow them to compromise the mission!"
-msgstr ""
+msgstr "不要讓他們破壞任務!"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:50
 msgid "Congratulations on securing our new base, Commander."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "恭喜你保護了我們的新基地，指揮官."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:51
 msgid ""
 "The Council has reviewed the report of your success and are pleased with the "
 "establishment of our base of operations."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "議會審查了你的成功報告，並對我們的行動基地的建立感到高興."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "議會審查了你的成功報告，並對我們的行動基地的建立感到高興."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:52
 msgid ""
 "Yet they showed great dissatisfaction that you 'violently engaged the local "
 "population', at my order."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "然而，他們對於你在我的命令下「與當地居民暴力交戰」表示了極大的不滿."
 
@@ -9070,15 +9483,22 @@ msgid "Nonetheless, I have a new objective for you."
 msgstr "儘管如此，我給你一個新目標."
 =======
 msgstr ""
+=======
+msgstr "然而，他們對於你在我的命令下「與當地居民暴力交戰」表示了極大的不滿."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:53
 msgid "But what other option is there, when the stakes are as great as these?"
-msgstr ""
+msgstr "但是當賭注如此之大時，還能有什麼其他選擇呢?"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:54
 msgid "Nonetheless, I have a new objective for you."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "儘管如此，我給你一個新目標."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:55
 msgid ""
@@ -9087,10 +9507,15 @@ msgid ""
 "somewhere in this sector."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "現在我們有了一個合適的行動基地，議會已經決定，我們將確保在該區域的某個地方建"
 "立一個崩潰前的生物工程實驗室."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"現在我們有了一個合適的行動基地，議會已經決定，我們將確保在該區域的某個地方建"
+"立一個崩潰前的生物工程實驗室."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:56
 msgid ""
@@ -9098,16 +9523,22 @@ msgid ""
 "like myself, we have been unable to determine its exact location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "現在，由於這個設施是絕密的，即使是像我這樣的高級官員，我們也無法確定它的確切"
 "位置."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"現在，由於這個設施是絕密的，即使是像我這樣的高級官員，我們也無法確定它的確切"
+"位置."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:57
 msgid ""
 "We have identified some individuals who have the information we need, but "
 "when we attempted to reach out to them, they were captured by scavengers."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "我們已經確定了一些擁有我們需要資訊的人，但當我們試圖與他們聯繫時，他們被拾荒"
 "者抓獲了."
@@ -9121,12 +9552,21 @@ msgstr "他們現在被附近的拾荒者押扣為人質."
 msgid "They are now being held hostage by scavengers nearby."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"我們已經確定了一些擁有我們需要資訊的人，但當我們試圖與他們聯繫時，他們被拾荒"
+"者抓獲了."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:58
+msgid "They are now being held hostage by scavengers nearby."
+msgstr "他們現在被附近的拾荒者押扣為人質."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:59
 msgid ""
 "Commander, take a transport and free those contacts using whatever means "
 "necessary. Reinforcements will be available for this mission."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "指揮官，乘坐運輸艦，以任何必要的手段釋放那些接觸者. 增援部隊將可用於此任務."
 
@@ -9139,11 +9579,19 @@ msgstr "事實證明，這些拾荒者不僅僅是一個麻煩."
 msgid "These scavengers are proving to be more than a nuisance."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"指揮官，乘坐運輸艦，以任何必要的手段釋放那些接觸者. 增援部隊將可用於此任務."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:63
+msgid "These scavengers are proving to be more than a nuisance."
+msgstr "事實證明，這些拾荒者不僅僅是一個麻煩."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:64
 msgid ""
 "But the more they stand in the way of our goals, the more destruction we "
 "shall cause them."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "但是，它們越是阻礙我們實現目標，我們就越會造成更大的破壞."
 
@@ -9157,26 +9605,41 @@ msgstr ""
 msgid "Go on, Commander."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "但是，它們越是阻礙我們實現目標，我們就越會造成更大的破壞."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:65
+msgid "Go on, Commander."
+msgstr "繼續加油，指揮官."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:67
 msgid ""
 "When you've finished your work out there I'll have some extra questions for "
 "our contacts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "當你完成你的工作后，我會有一些額外的問題要問我們的聯繫人."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "當你完成你的工作后，我會有一些額外的問題要問我們的聯繫人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:68
 msgid ""
 "These scavengers seem to have a particular interest in them, which may mean "
 "they're after the same goal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "這些拾荒者似乎對它們特別感興趣，這可能意味著他們有與我們相同的目標."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "這些拾荒者似乎對它們特別感興趣，這可能意味著他們有與我們相同的目標."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:69
 msgid ""
@@ -9184,29 +9647,42 @@ msgid ""
 "more than able to handle whatever these hooligans can throw at us."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "你已經證明自己很有能力，指揮官。我相信你完全有能力處理這些流氓向我們拋出的任"
 "何事物."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"你已經證明自己很有能力，指揮官。我相信你完全有能力處理這些流氓向我們拋出的任"
+"何事物."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:73
 msgid ""
 "Congratulations once again Commander, you've saved our civilian contacts."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "再次恭喜指揮官，你拯救了我們的聯繫人."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "再次恭喜指揮官，你拯救了我們的聯繫人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:74
 msgid ""
 "With their help, the Council has been able to pinpoint the location of the "
 "research facility we're looking for."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在他們的説明下，議會已經能夠確定我們正在尋找的研究設施的位置."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "在他們的説明下，議會已經能夠確定我們正在尋找的研究設施的位置."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:75
 msgid ""
@@ -9214,10 +9690,15 @@ msgid ""
 "scavengers you've been fighting are searching for this same facility."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "但他們也有一些壞消息: 根據獲救的平民說，你們一直在戰鬥的拾荒者也在尋找同樣的"
 "設施."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"但他們也有一些壞消息: 根據獲救的平民說，你們一直在戰鬥的拾荒者也在尋找同樣的"
+"設施."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:76
 msgid ""
@@ -9226,10 +9707,15 @@ msgid ""
 "scavengers from finding it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "目前尚不清楚他們是否發現了它的位置. 如果議會對這設施目的的理解是正確的，我們"
 "就必須防止拾荒者找到它."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"目前尚不清楚他們是否發現了它的位置. 如果議會對這設施目的的理解是正確的，我們"
+"就必須防止拾荒者找到它."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:77
 msgid ""
@@ -9238,10 +9724,15 @@ msgid ""
 "from the local gangs."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "此外，議會再次試圖譴責我們勝利的方式，擔心\"我們的持續侵略可能會招致當地派系"
 "的報復\"."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"此外，議會再次試圖譴責我們勝利的方式，擔心\"我們的持續侵略可能會招致當地派系"
+"的報復\"."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:78
 msgid ""
@@ -9250,23 +9741,33 @@ msgid ""
 "effective methods at our disposal."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "但我要明確說的是，這次行動是在我的指導下進行的. 只要我們繼續成功實現我們的目"
 "標，我認為我們沒有理由不使用我們所掌握的最有效的方法."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"但我要明確說的是，這次行動是在我的指導下進行的. 只要我們繼續成功實現我們的目"
+"標，我認為我們沒有理由不使用我們所掌握的最有效的方法."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:79
 msgid ""
 "Prepare your forces for transport, we are going after that research facility."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "準備好你的部隊進行運輸，我們正在追求那個研究設施."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "準備好你的部隊進行運輸，我們正在追求那個研究設施."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:81
 msgid ""
 "Commander, we're detecting a large scavenger attack coming in from the south."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "指揮官，我們偵測到大規模拾荒者的攻擊從南方襲來."
 
@@ -9279,20 +9780,28 @@ msgid "We cannot afford to lose this site!"
 msgstr "我們不能失去這個站點!"
 =======
 msgstr ""
+=======
+msgstr "指揮官，我們偵測到大規模拾荒者的攻擊從南方襲來."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:82
 msgid "Repulse this attack immediately."
-msgstr ""
+msgstr "立即擊退這次攻擊."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:83
 msgid "We cannot afford to lose this site!"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我們不能失去這個站點!"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:85
 msgid ""
 "Helicopters? Perhaps I have truly underestimated the ingenuity of these "
 "scavengers after all..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "直升機? 或許我真的低估了這些拾荒者的聰明才智..."
 
@@ -9306,21 +9815,33 @@ msgstr ""
 msgid "But we've come too far to be outplayed now."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "直升機? 或許我真的低估了這些拾荒者的聰明才智..."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:86
+msgid "But we've come too far to be outplayed now."
+msgstr "但我們已經走了太遠，現在已經無法被擊敗了."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:87
 msgid ""
 "Commander, I'm overriding your previous objective. That research facility "
 "can wait."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指揮官，我重迭了你之前的目標. 該研究機構可以等待."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官，我重迭了你之前的目標. 該研究機構可以等待."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:88
 msgid ""
 "Make your way south, and eradicate those scavengers. Wipe out anything that "
 "gets in your way."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "向南走，消滅那些拾荒者. 清除任何妨礙你的東西."
 
@@ -9334,16 +9855,27 @@ msgstr ""
 msgid "Extraordinary work Commander, I knew I could count on you."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "向南走，消滅那些拾荒者. 清除任何妨礙你的東西."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:92
+msgid "Extraordinary work Commander, I knew I could count on you."
+msgstr "出色的工作, 我就知道我可以信賴你 指揮官."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:93
 msgid ""
 "I have not submitted a report to the Council about this... reprisal by the "
 "scavengers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我還沒有向議會提交關於這件事的報告... 拾荒者的報復."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我還沒有向議會提交關於這件事的報告... 拾荒者的報復."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:94
 msgid ""
@@ -9352,26 +9884,36 @@ msgid ""
 "operations."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "在我看來，如果議會如此堅決地反對我如何進行行動，那麼他們就不需要知道上述行動"
 "的細節."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"在我看來，如果議會如此堅決地反對我如何進行行動，那麼他們就不需要知道上述行動"
+"的細節."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:95
 msgid ""
 "I will submit a report when you've secured the research facility. Go and "
 "send your forces now."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "當你獲得研究設施後我會提交一份報告. 現在就派遣你的部隊出發吧."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "當你獲得研究設施後我會提交一份報告. 現在就派遣你的部隊出發吧."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:96
 msgid ""
 "If the little intel we have about this site is even close to accurate, we "
 "cannot let these scavengers get there first."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "如果我們掌握的有關該站點的少量情報甚至接近準確，我們就不能讓這些拾荒者先到達"
 "那裡."
@@ -9388,29 +9930,41 @@ msgstr "清除他們並向研究設施前進."
 msgid "With any luck, we may still have enough time to stop them."
 msgstr "運氣好的話，我們可能還有足夠的時間阻止他們."
 =======
+=======
+"如果我們掌握的有關該站點的少量情報甚至接近準確，我們就不能讓這些拾荒者先到達"
+"那裡."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:100
 msgid "Damnation! Those scavengers are already here."
-msgstr ""
+msgstr "該死! 那些拾荒者已經來了."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:101
 msgid "Clear them out and advance towards the research facility."
-msgstr ""
+msgstr "清除他們並向研究設施前進."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:102
 msgid "With any luck, we may still have enough time to stop them."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "運氣好的話，我們可能還有足夠的時間阻止他們."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:104
 msgid ""
 "Heads up Commander, I'm detecting a large amount of movement approaching "
 "your position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "注意, 指揮官，我偵測到大量的移動正在接近您的位置."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "注意, 指揮官，我偵測到大量的移動正在接近您的位置."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:106
 msgid ""
@@ -9418,25 +9972,35 @@ msgid ""
 "seeing. So I will give you a new, clear objective."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "我正在查看我的提要資料，我很難相信我所看到的. 所以我會給你一個新的、明確的目"
 "標."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"我正在查看我的提要資料，我很難相信我所看到的. 所以我會給你一個新的、明確的目"
+"標."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:107
 msgid ""
 "Commander, destroy that research facility and destroy anyone or anything "
 "that stands in your way."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指揮官，摧毀那個研究設施並摧毀任何阻礙你的人或物."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官，摧毀那個研究設施並摧毀任何阻礙你的人或物."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:108
 msgid ""
 "Lock down this entire area. Don't let anything here survive, scavenger or "
 "otherwise."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "封鎖整個區域. 不要讓這裡的任何東西存活下來，無論是拾荒者還是其他事物."
 
@@ -9450,6 +10014,13 @@ msgstr ""
 msgid "These have been a troubling turn of events, to say the least."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "封鎖整個區域. 不要讓這裡的任何東西存活下來，無論是拾荒者還是其他事物."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:112
+msgid "These have been a troubling turn of events, to say the least."
+msgstr "至少可以說，這是一個令人不安的事件轉變."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:113
 msgid ""
@@ -9457,30 +10028,43 @@ msgid ""
 "of virus or parasite that's turning those scavengers into mindless swarms."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "那個實驗室必定正在設計某種生物武器. 某種病毒或寄生蟲將這些拾荒者變成了無意識"
 "的群體."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"那個實驗室必定正在設計某種生物武器. 某種病毒或寄生蟲將這些拾荒者變成了無意識"
+"的群體."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:114
 msgid ""
 "And now that plague is free. Monitoring of scavenger radio waves show that "
 "they're in a state of panic."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現在瘟疫已經解除了. 對拾荒者無線電波的監控顯示他們正處於恐慌狀態."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "現在瘟疫已經解除了. 對拾荒者無線電波的監控顯示他們正處於恐慌狀態."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:115
 msgid ""
 "If the Council were to learn of our failure to reach the facility in time, "
 "of your failure to contain this outbreak..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果議會獲悉我們未能及時到達該設施、你們未能控制疫情爆發..."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "如果議會獲悉我們未能及時到達該設施、你們未能控制疫情爆發."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:116
 msgid ""
@@ -9489,10 +10073,15 @@ msgid ""
 "forward."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "指揮官，從現在開始，我們將獨立於議會的『監督』繼續進行這次行動. 今後我將成為"
 "發出每一份命令的人."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"指揮官，從現在開始，我們將獨立於議會的『監督』繼續進行這次行動. 今後我將成為"
+"發出每一份命令的人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:117
 msgid ""
@@ -9500,36 +10089,50 @@ msgid ""
 "For the success of this operation, they cannot know what is happening here."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "我不希望你或你的任何人與議會有任何聯繫. 為了這次行動的成功，他們無法知道這裡"
 "發生了什麼."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"我不希望你或你的任何人與議會有任何聯繫. 為了這次行動的成功，他們無法知道這裡"
+"發生了什麼."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:118
 msgid ""
 "Your primary objective now is to curtail this infestation, and to crush "
 "anything that stands in the way of us establishing our hold."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "你現在的首要目標是遏制這種侵擾，並粉碎任何阻礙我們建立據點的事物."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "你現在的首要目標是遏制這種侵擾，並粉碎任何阻礙我們建立據點的事物."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:119
 msgid ""
 "There is an old industrial town nearby. Scavenger radio chatter suggests it "
 "is under attack by the infested."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "附近有一個老工業城鎮. 拾荒者無線電喋喋不休表明它受到了感染者的攻擊."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "附近有一個老工業城鎮. 拾荒者無線電喋喋不休表明它受到了感染者的攻擊."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:120
 msgid ""
 "Take your forces there and purge the town. We must move swiftly and hit hard "
 "in order to succeed."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 "帶你的部隊去那裡並淨化這座城鎮. 我們必須迅速行動、大力打擊才能取得成功."
 
@@ -9542,11 +10145,19 @@ msgstr "指揮官，繼續前進，消滅那個拾荒者基地."
 msgid "Commander, continue forward and eradicate that scavenger base."
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"帶你的部隊去那裡並淨化這座城鎮. 我們必須迅速行動、大力打擊才能取得成功."
+
+#: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:124
+msgid "Commander, continue forward and eradicate that scavenger base."
+msgstr "指揮官，繼續前進，消滅那個拾荒者基地."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:125
 msgid ""
 "Infested or not, they still pose a threat to our cause, and as such must be "
 "rooted out."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "無論是否受到感染，它們仍然對我們構成威脅，因此必須根除."
 
@@ -9559,70 +10170,101 @@ msgid "Hello Commander, I am a representative of the Council."
 msgstr "指揮官您好，我是議會的代表."
 =======
 msgstr ""
+=======
+msgstr "無論是否受到感染，它們仍然對我們構成威脅，因此必須根除."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:126
 msgid "If we are to succeed, we cannot allow any loose ends to remain."
-msgstr ""
+msgstr "如果我們要成功，我們就不能允許任何未解決的問題存在."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:130
 msgid "Hello Commander, I am a representative of the Council."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官您好，我是議會的代表."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:131
 msgid ""
 "General Clayde has informed us about the situation, and about the events "
 "that have transpired since your last report."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "克萊德將軍已向我們通報了情況以及自您上次報告以來所發生的事件."
 =======
 msgstr ""
+=======
+msgstr "克萊德將軍已向我們通報了情況以及自您上次報告以來所發生的事件."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:132
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:179
 msgid "..."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "..."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:133
 msgid ""
 "As per direction of the Council, I will be acting as your overseer going "
 "forward with this operation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "根據議會的指示，我將擔任你們的監督員，推進這項行動."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "根據議會的指示，我將擔任你們的監督員，推進這項行動."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:134
 msgid ""
 "We have constructed a plan to evacuate this area of all survivors via moving "
 "them to a nearby secure location."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我們制定了一項計劃，透過將所有倖存者轉移到附近的安全地點來疏散該地區."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我們制定了一項計劃，透過將所有倖存者轉移到附近的安全地點來疏散該地區."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:135
 msgid ""
 "Unfortunately, we have detected multiple anti-air batteries located along "
 "the fastest route between our base and the haven."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "不幸的是，我們發現多個防空砲台位於我們基地和避難所之間最快的路線上."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "不幸的是，我們發現多個防空砲台位於我們基地和避難所之間最快的路線上."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:136
 msgid ""
 "If we are to succeed in this evacuation effort, these emplacements must be "
 "taken offline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "如果我們要成功完成這次疏散工作，就必須讓這些失去作用."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "如果我們要成功完成這次疏散工作，就必須讓這些失去作用."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:137
 msgid ""
@@ -9631,29 +10273,42 @@ msgid ""
 "with these holdouts seems impossible."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "該地區也是當地拾荒者的主要據點. 根據你先前的行動，與這些頑固分子達成任何形式"
 "的外交解決方案似乎都是不可能的."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"該地區也是當地拾荒者的主要據點. 根據你先前的行動，與這些頑固分子達成任何形式"
+"的外交解決方案似乎都是不可能的."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:138
 msgid ""
 "Good luck, Commander. Countless lives are now depending on your success."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "祝你好運，指揮官. 現在無數人的生命取決於你的成功."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "祝你好運，指揮官. 現在無數人的生命取決於你的成功."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:142
 msgid ""
 "Commander be advised: we have received reports that large numbers of "
 "infested are amassing just outside your area of operation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請注意 指揮官: 我們收到報告說大量感染者正在您的行動區域外聚集."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "請注意 指揮官: 我們收到報告說大量感染者正在您的行動區域外聚集."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:143
 msgid ""
@@ -9661,33 +10316,46 @@ msgid ""
 "preparing to overrun whatever is left of them."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "從這裡大量拾荒者的存在來看，被感染的生物很可能正準備佔領它們剩下的一切."
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+"從這裡大量拾荒者的存在來看，被感染的生物很可能正準備佔領它們剩下的一切."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:144
 msgid ""
 "Please work quickly; we are unsure of when they will begin to descend upon "
 "this position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請快點工作; 我們不確定他們什麼時候會開始降臨到這個位置."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "請快點工作; 我們不確定他們什麼時候會開始降臨到這個位置."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:146
 msgid ""
 "Commander, a reminder to not allow yourself to be distracted from your goal."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指揮官，提醒你不要讓自己偏離目標."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官，提醒你不要讓自己偏離目標."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:147
 msgid ""
 "Your primary objective is to neutralize the designated anti-aircraft "
 "batteries, and then return to base."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "您的主要目標是消滅指定的防空砲台，然後返回基地."
 
@@ -9700,30 +10368,42 @@ msgid "Commander, the infested are converging towards your location en mass."
 msgstr "指揮官，感染者正在向您所在的位置集中."
 =======
 msgstr ""
+=======
+msgstr "您的主要目標是消滅指定的防空砲台，然後返回基地."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:148
 msgid "We cannot afford to have you waste time out there, Commander."
-msgstr ""
+msgstr "我們不能讓你在外面浪費時間，指揮官."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:150
 msgid "Commander, the infested are converging towards your location en mass."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "指揮官，感染者正在向您所在的位置集中."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:151
 msgid ""
 "Their numbers are far too great to estimate accurately; we are ordering an "
 "immediate retreat to LZ for extraction."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "他們的數量太大，無法準確估計. 我們被命令立即撤退到著陸區進行撤離."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "他們的數量太大，無法準確估計. 我們被命令立即撤退到著陸區進行撤離."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:152
 msgid ""
 "There's no feasible way for your forces to maintain their position this far "
 "from the base against so many."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "沒有可行的方法讓你的部隊在距離基地這麼遠的地方面對如此多的敵人."
 
@@ -9736,80 +10416,112 @@ msgid "Are you searching for more glory? More trial by combat?"
 msgstr "你在尋找更多的榮耀嗎? 更多戰鬥考驗?"
 =======
 msgstr ""
+=======
+msgstr "沒有可行的方法讓你的部隊在距離基地這麼遠的地方面對如此多的敵人."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:154
 msgid "What are you still doing out there?!"
-msgstr ""
+msgstr "你還在外面做什麼?!"
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:155
 msgid "Are you searching for more glory? More trial by combat?"
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "你在尋找更多的榮耀嗎? 更多戰鬥考驗?"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:156
 msgid ""
 "By delaying your orders to retreat, you are only putting yourself and your "
 "own troops at risk."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "推遲撤退的命令只會讓你自己和你的部隊處於危險之中."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "推遲撤退的命令只會讓你自己和你的部隊處於危險之中."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:157
 msgid ""
 "Regroup at the LZ for evac, unless you'd rather we call off the transports "
 "and leave you behind."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在著陸點重新集結撤離，除非您希望我們取消運輸並將您留在後面."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "在著陸點重新集結撤離，除非您希望我們取消運輸並將您留在後面."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:161
 msgid ""
 "Welcome back, Commander. We are pleased with your success in taking those AA "
 "guns offline."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "歡迎回來，指揮官. 我們很高興您成功地將這些防空砲g失去運作."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "歡迎回來，指揮官. 我們很高興您成功地將這些防空砲g失去運作."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:162
 msgid ""
 "However, even without them impeding our progress, our evacuation is still "
 "behind schedule."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "然而，即使沒有他們阻礙我們的進展，我們的撤離仍然落後於計劃."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "然而，即使沒有他們阻礙我們的進展，我們的撤離仍然落後於計劃."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:163
 msgid ""
 "We're still getting groups of stragglers, and the infested are closing in on "
 "our position at this very moment."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我們仍然有成群的散兵勇士，而此時此刻，被感染的人正逼近我們的陣地."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我們仍然有成群的散兵勇士，而此時此刻，被感染的人正逼近我們的陣地."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:164
 msgid ""
 "We don't have much time left. You must defend the base while we finish the "
 "evacuation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "我們剩下的時間不多. 在我們完成疏散期間，你必須保衛基地."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "我們剩下的時間不多. 在我們完成疏散期間，你必須保衛基地."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:165
 msgid ""
 "Once all civilians and critical personnel are away, we'll have the "
 "transports come back for you and your forces."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "一旦所有平民和關鍵人員離開，我們就會讓運輸工具回來接你和你的部隊."
 
@@ -9830,48 +10542,64 @@ msgid "... but they're not coming back for you."
 msgstr "... 但他們不會回來找你了."
 =======
 msgstr ""
+=======
+msgstr "一旦所有平民和關鍵人員離開，我們就會讓運輸工具回來接你和你的部隊."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:166
 msgid "This is it Commander. Good luck."
-msgstr ""
+msgstr "就這些了 指揮官. 祝你好運."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:168
 msgid "Greetings Commander. This is General Clayde."
-msgstr ""
+msgstr "誠摯的問候您 指揮官. 這理是克萊德將軍."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:169
 msgid "The evacuation was a success, the final transports have taken off..."
-msgstr ""
+msgstr "疏散成功，最後一批運輸艦已起飛..."
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:170
 msgid "... but they're not coming back for you."
+<<<<<<< HEAD
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "... 但他們不會回來找你了."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:171
 msgid ""
 "When I gave my report to the Council, I told them that you were unhinged."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "當我向議會提交報告時，我告訴他們你精神錯亂."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "當我向議會提交報告時，我告訴他們你精神錯亂."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:172
 msgid ""
 "That you went out of your way to seek out the death and destruction of "
 "anyone who stood in your way."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "你不遺餘力地尋找任何阻礙你的人的死亡和毀滅."
 =======
 msgstr ""
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "你不遺餘力地尋找任何阻礙你的人的死亡和毀滅."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:173
 msgid ""
 "That the only reason for the scavengers' hostility, the reason that this "
 "infection was released, was due to your own bloodthirstiness and negligence "
 "of duty."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr "拾荒者們的敵意，這種感染的釋放，只因為你自己的嗜血和失職."
 
@@ -9884,6 +10612,9 @@ msgid "They believed it. All of it."
 msgstr "他們相信了. 所有的全部."
 =======
 msgstr ""
+=======
+msgstr "拾荒者們的敵意，這種感染的釋放，只因為你自己的嗜血和失職."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: data/mods/campaign/reclamation/messages/strings/cam3strings.txt:174
 msgid "And you know what happened?"
@@ -10693,7 +11424,8 @@ msgstr "因不活躍/被動而丟失."
 msgid ""
 "Host-configured game time limit is approaching. If there is no winner within "
 "10 minutes, the game will end."
-msgstr "主持端參數設定的遊戲時間限制即將到來. 如果 10 分鐘內沒有獲勝者，遊戲將結束."
+msgstr ""
+"主持端參數設定的遊戲時間限制即將到來. 如果 10 分鐘內沒有獲勝者，遊戲將結束."
 
 #: data/mp/multiplay/script/rules/endconditions.js:375
 msgid "Host-configured game time limit exceeded. Game is over."
@@ -10708,7 +11440,9 @@ msgid ""
 "- unit building - research completion - construction of base structures "
 "(factories, power plants, laboratories, modules and oil derricks) - dealing "
 "damage"
-msgstr "- 裝備建造 - 研發完成 - 建造基礎結構(工廠、能源工廠、實驗室、模組和石油井架) - 造成損壞"
+msgstr ""
+"- 裝備建造 - 研發完成 - 建造基礎結構(工廠、能源工廠、實驗室、模組和石油井架) "
+"- 造成損壞"
 
 #: data/mp/multiplay/script/rules/printsettings.js:7 src/multiint.cpp:1339
 msgid "Ultimate Scavengers"
@@ -10893,11 +11627,16 @@ msgid ""
 " or to forward the port to your system."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 "連接到遊戲大廳伺服器時出錯: %s.\\n確保埠位址 %d 可以接收傳入連接.\\n如果您使"
 "用的是路由器，請將其設定為使用 UPnP\\n或將埠位址轉發到您的系統."
 =======
 "連接到遊戲大廳伺服器時出錯: %s.\\n確保埠位址 %d 可以接收傳入連接.\\n如果您使用的是路由器，請將其設定為使用 "
 "UPnP\\n或將埠位址轉發到您的系統."
+=======
+"連接到遊戲大廳伺服器時出錯: %s.\\n確保埠位址 %d 可以接收傳入連接.\\n如果您使"
+"用的是路由器，請將其設定為使用 UPnP\\n或將埠位址轉發到您的系統."
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: lib/netplay/netplay.cpp:4755
 msgid "Failed to get a lobby response!"
@@ -15366,7 +16105,7 @@ msgstr "可以抵抗 NEXUS 連結科技"
 =======
 #: po/custom/fromJson.txt:2789
 msgid "Enables resistance to Nexus Link technology"
-msgstr "可以阻擋NEXUS 連結科技"
+msgstr "可以抵抗 NEXUS 連結科技"
 
 #. TRANSLATORS:data/base/messages/resmessages3.json: $.RES_SY_ASTRUC.text[3]data/mods/campaign/fractured-kingdom/messages/resmessages3.json: $.RES_SY_ASTRUC.text[3]data/mods/campaign/reclamation/messages/resmessages3.json: $.RES_SY_ASTRUC.text[3]data/mp/messages/resmessages3.json: $.RES_SY_ASTRUC.text[3]
 #: po/custom/fromJson.txt:2795
@@ -15911,6 +16650,7 @@ msgstr ""
 
 #. TRANSLATORS:data/mods/campaign/fractured-kingdom/campaigns/fracturedkingdom.json: $.namedata/mods/campaign/fractured-kingdom/mod-info.json: $.name
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: po/custom/fromJson.txt:3189
 msgid "Fractured Kingdom"
 msgstr "破碎的王國"
@@ -15928,9 +16668,20 @@ msgstr "燃油噴射引擎三型"
 #. TRANSLATORS:data/base/messages/resmessages1.json: $.RES_V_EN1.text[1]data/base/stats/research.json: $.R-Vehicle-Engine01.namedata/mods/campaign/fractured-kingdom/messages/resmessages1.json: $.RES_V_EN1.text[1]... + 6 refs
 #: po/custom/fromJson.txt:3207
 =======
+=======
+#: data/mods/campaign/fractured-kingdom/mod-info.json:2
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 #: po/custom/fromJson.txt:3122
 msgid "Fractured Kingdom"
 msgstr "破碎的王國"
+
+#. TRANSLATORS:data/mods/campaign/fractured-kingdom/campaigns/fracturedkingdom.json: $.namedata/mods/campaign/fractured-kingdom/mod-info.json: $.name
+#: data/mods/campaign/fractured-kingdom/mod-info.json:46
+msgid "Disable Day/Night Cycle"
+msgstr "停用 日/夜 循環"
+
+msgid "Enable Day/Night Cycle"
+msgstr "啟用 日/夜 循環"
 
 #. TRANSLATORS:data/base/stats/research.json: $.R-Vehicle-Engine02.namedata/mods/campaign/fractured-kingdom/stats/research.json: $.R-Vehicle-Engine02.namedata/mods/campaign/reclamation/stats/research.json: $.R-Vehicle-Engine02.namedata/mp/stats/research.json: $.R-Vehicle-Engine02.name
 #: po/custom/fromJson.txt:3128
@@ -21154,17 +21905,17 @@ msgstr "NEXUS導彈發射井"
 #. TRANSLATORS:data/base/stats/research.json: $.R-Sys-Resistance-Upgrade02.namedata/mods/campaign/reclamation/stats/research.json: $.R-Sys-Resistance-Upgrade02.name
 #: po/custom/fromJson.txt:6238
 msgid "NEXUS Resistance Circuits Mk2"
-msgstr "NEXUS阻抗迴路二型"
+msgstr "NEXUS抵抗迴路二型"
 
 #. TRANSLATORS:data/base/stats/research.json: $.R-Sys-Resistance-Upgrade03.namedata/mods/campaign/reclamation/stats/research.json: $.R-Sys-Resistance-Upgrade03.name
 #: po/custom/fromJson.txt:6242
 msgid "NEXUS Resistance Circuits Mk3"
-msgstr "NEXUS阻抗迴路三型"
+msgstr "NEXUS抵抗迴路三型"
 
 #. TRANSLATORS:data/base/stats/research.json: $.R-Sys-Resistance-Upgrade01.namedata/mods/campaign/reclamation/stats/research.json: $.R-Sys-Resistance-Upgrade01.name
 #: po/custom/fromJson.txt:6246
 msgid "NEXUS Resistance Circuits"
-msgstr "NEXUS阻抗迴路"
+msgstr "NEXUS抵抗迴路"
 
 #. TRANSLATORS:data/base/stats/structure.json: $.NEXUSWall.namedata/mods/campaign/fractured-kingdom/stats/structure.json: $.NEXUSWall.namedata/mods/campaign/reclamation/stats/structure.json: $.NEXUSWall.namedata/mp/stats/structure.json: $.NEXUSWall.name
 #: po/custom/fromJson.txt:6255
@@ -21418,7 +22169,7 @@ msgstr "搭載抵抗迴路系統"
 =======
 #: po/custom/fromJson.txt:6354
 msgid "On-board resistance circuit systems"
-msgstr "搭載阻抗線圈系統"
+msgstr "搭載抵抗迴路系統"
 
 #. TRANSLATORS:data/base/messages/resmessages1.json: $.RES_REPAI1.text[3]data/mods/campaign/fractured-kingdom/messages/resmessages1.json: $.RES_REPAI1.text[3]data/mods/campaign/reclamation/messages/resmessages1.json: $.RES_REPAI1.text[3]data/mp/messages/resmessages1.json: $.RES_REPAI1.text[3]
 #: po/custom/fromJson.txt:6366
@@ -22252,12 +23003,12 @@ msgstr "開疆闢土"
 =======
 #: po/custom/fromJson.txt:6800
 msgid "Reclamation Campaign"
-msgstr ""
+msgstr "開疆闢土-戰役"
 
 #. TRANSLATORS:data/mods/campaign/reclamation/mod-info.json: $.name
 #: po/custom/fromJson.txt:6803
 msgid "Reclamation"
-msgstr ""
+msgstr "開疆闢土"
 
 #. TRANSLATORS:data/base/stats/research.json: $.R-Wpn-Flamer-Range01-ScavReduce.name
 #: po/custom/fromJson.txt:6812
@@ -26531,9 +27282,10 @@ msgstr "自動執行遊戲以進行測試"
 
 #: src/clparse.cpp:430
 msgid ""
-"Headless mode (only supported when also specifying --autogame, --autohost, "
-"--skirmish)"
-msgstr "無頭模式只有在同時指定下列選項時才支援 (--autogame、--autohost、--skirmish)"
+"Headless mode (only supported when also specifying --autogame, --autohost, --"
+"skirmish)"
+msgstr ""
+"無頭模式只有在同時指定下列選項時才支援 (--autogame、--autohost、--skirmish)"
 
 #: src/clparse.cpp:431
 msgid "Immediately save game and quit"
@@ -26822,8 +27574,8 @@ msgid ""
 "(Enemy!) %s - Hitpoints %d/%d - ID %d - experience %f, %s - order %s - "
 "action %s - sensor range %d - ECM %d - pitch %.0f"
 msgstr ""
-"(敵人!) %s - 生命值 %d/%d - ID %d - 經驗值 %f， %s - 順序 %s - 動作 %s - 感測器範圍 %d - 干擾 %d "
-"- 間隔 %.0f"
+"(敵人!) %s - 生命值 %d/%d - ID %d - 經驗值 %f， %s - 順序 %s - 動作 %s - 感測"
+"器範圍 %d - 干擾 %d - 間隔 %.0f"
 
 #: src/display.cpp:1698
 #, c-format
@@ -27017,10 +27769,13 @@ msgstr "教學模式"
 #: src/frontend.cpp:2191 src/frontend.cpp:2491 src/frontend.cpp:2790
 #: src/frontend.cpp:2929 src/frontend.cpp:3368 src/titleui/campaign.cpp:2746
 <<<<<<< HEAD
+<<<<<<< HEAD
 #| msgid "Return"
 =======
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
 msgctxt "menu"
+=======
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 msgid "Return"
 msgstr "返回"
 
@@ -27384,7 +28139,8 @@ msgstr "音效/縮放 選項"
 msgid ""
 "In Desktop Fullscreen mode, the resolution matches that of your desktop \n"
 "(or what the window manager allows)."
-msgstr "在桌面全螢幕模式下，解析度與桌面解析度相匹配\\n(或視窗管理員允許的內容)."
+msgstr ""
+"在桌面全螢幕模式下，解析度與桌面解析度相匹配\\n(或視窗管理員允許的內容)."
 
 #: src/frontend.cpp:1545
 msgid ""
@@ -27669,7 +28425,9 @@ msgstr "增加遊戲顯示比例?"
 msgid ""
 "With your current resolution & display scale settings, the game's user "
 "interface may appear small, and the game perspective may appear distorted."
-msgstr "使用您目前的解析度和顯示比例設定，遊戲的使用者介面可能會顯得很小，並且遊戲視角可能會出現失真."
+msgstr ""
+"使用您目前的解析度和顯示比例設定，遊戲的使用者介面可能會顯得很小，並且遊戲視"
+"角可能會出現失真."
 
 #: src/frontend.cpp:3976
 msgid "You can fix this by increasing the game's Display Scale setting."
@@ -29194,7 +29952,8 @@ msgstr "Discord: 無法加入遊戲"
 msgid ""
 "You can't join a game while you're in a game. Please save / quit your "
 "current game, exit to the main menu, and try again."
-msgstr "當您在遊戲中無法加入遊戲時. 請儲存/退出目前遊戲，退出到主選單，然後重試."
+msgstr ""
+"當您在遊戲中無法加入遊戲時. 請儲存/退出目前遊戲，退出到主選單，然後重試."
 
 #: src/integrations/wzdiscordrpc.cpp:220
 msgid "Discord: Finding & Connecting to Game"
@@ -31999,7 +32758,8 @@ msgstr "%s - 生命值 %d/%d"
 #: src/structure.cpp:5409
 #, c-format
 msgid "ID %d - armour %d|%d - sensor range %d - ECM %d - born %u - depth %.02f"
-msgstr "ID %d - 裝甲 %d|%d - 感測器範圍 %d - 電磁干擾 %d - 出廠 %u - 深度 %.02f"
+msgstr ""
+"ID %d - 裝甲 %d|%d - 感測器範圍 %d - 電磁干擾 %d - 出廠 %u - 深度 %.02f"
 
 #. TRANSLATORS: A debug output string (user-visible if debug mode is enabled)"state": The "RepairState" (printed as an integer, Idle = 0, Repairing = 1)
 #: src/structure.cpp:5420
@@ -32110,6 +32870,7 @@ msgstr "指揮計劃的武力進行重建世界的戰鬥"
 #: src/titleui/campaign.cpp:1753
 msgid "Warzone 2100 Universe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "戰場 2100 世界"
 
 #: src/titleui/campaign.cpp:1758
@@ -32121,15 +32882,22 @@ msgid "Unique Universe"
 msgstr "唯一的世界"
 =======
 msgstr "戰場 2100 宇宙"
+=======
+msgstr "戰場 2100 世界"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: src/titleui/campaign.cpp:1758
 msgid "WZ2100 Extended Universe"
-msgstr "戰場 2100 延伸宇宙"
+msgstr "戰場 2100 延伸世界"
 
 #: src/titleui/campaign.cpp:1763
 msgid "Unique Universe"
+<<<<<<< HEAD
 msgstr "唯一的宇宙"
 >>>>>>> 7f61dd00b (Update Tranditional Chinese translation.)
+=======
+msgstr "唯一的世界"
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 
 #: src/titleui/campaign.cpp:1795
 #, c-format
@@ -32475,6 +33243,7 @@ msgid "Script Debugger"
 msgstr "腳本偵錯"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid ""
 #~ "(Prequel) Set out under the command of renowned General Edmund Clayde "
 #~ "with the goal of laying the foundations of a new world. What could "
@@ -32486,6 +33255,8 @@ msgstr "腳本偵錯"
 msgid "Return"
 msgstr "返回"
 
+=======
+>>>>>>> a39efd723 (Update Tranditional Chinese translation.)
 msgid "Type"
 msgstr "類型"
 
