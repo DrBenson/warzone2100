@@ -4,15 +4,16 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-2.0-or-later</project_license>
 	<name>Warzone 2100@WZ_NAME_SUFFIX@</name>
-	<summary>Command the forces of The Project in a battle to rebuild the world</summary>
-	<summary xml:lang="de">Befehlige die Truppen des Projektes in dem Kampf die Welt wieder aufzubauen</summary>
-	<summary xml:lang="fr">Commandez les forces du Projet dans une bataille pour reconstruire le monde</summary>
-	<summary xml:lang="it">Comanda le forze del Progetto in una battaglia per ricostruire il mondo</summary>
-	<summary xml:lang="pl">Przejmij dowództwo nad siłami Projektu w bitwie o odbudowę świata</summary>
-	<summary xml:lang="pt">Comande as forças do Projecto numa batalha para reconstruir o mundo</summary>
-	<summary xml:lang="pt-BR">Comande as forças do Projeto em uma batalha para reconstruir o mundo</summary>
-	<summary xml:lang="ru">Управляйте вооруженными силами Проекта в бою за восстановление мира</summary>
-	<summary xml:lang="uk">Керуйте збройними силами Проєкту в бою за відновлення миру</summary>
+	<summary>Command the forces of The Project in a battle to rebuild the world.</summary>
+	<summary xml:lang="de">Befehlige die Truppen des Projektes in dem Kampf die Welt wieder aufzubauen.</summary>
+	<summary xml:lang="fr">Commandez les forces du Projet dans une bataille pour reconstruire le monde.</summary>
+	<summary xml:lang="it">Comanda le forze del Progetto in una battaglia per ricostruire il mondo.</summary>
+	<summary xml:lang="pl">Przejmij dowództwo nad siłami Projektu w bitwie o odbudowę świata.</summary>
+	<summary xml:lang="pt">Comande as forças do Projecto numa batalha para reconstruir o mundo.</summary>
+	<summary xml:lang="pt-BR">Comande as forças do Projeto em uma batalha para reconstruir o mundo.</summary>
+	<summary xml:lang="ru">Управляйте вооруженными силами Проекта в бою за восстановление мира.</summary>
+	<summary xml:lang="uk">Керуйте збройними силами Проєкту в бою за відновлення миру.</summary>
+	<summary xml:lang="zh_TW">指揮這個計畫的部隊進行重建世界的戰鬥.</summary>
 	<launchable type="desktop-id">@WZ_APPSTREAM_ID@@WZ_OUTPUT_NAME_SUFFIX@.desktop</launchable>
 	<description>
 		<p>
@@ -69,7 +70,7 @@
 	</screenshots>
 	<developer_name>Warzone 2100 Project</developer_name>
 	<releases>
-	  <release version="@WZ_METAINFO_RELEASE_VERSION@" type="@WZ_METAINFO_RELEASE_TYPE@" date="@WZ_METAINFO_RELEASE_DATE@">
+		<release version="@WZ_METAINFO_RELEASE_VERSION@" type="@WZ_METAINFO_RELEASE_TYPE@" date="@WZ_METAINFO_RELEASE_DATE@">
 			<description>
 				<p>Bug fixes and improvements</p>
 			</description>
