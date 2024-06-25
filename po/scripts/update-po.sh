@@ -12,11 +12,11 @@ export LC_COLLATE=C
 # - data/base/guidetopics/* - don't want to include guide topics json (those are handled separately below)
 # - data/mods/campaign/wz2100_camclassic/* - the only additional json strings in here are for "silent" CAM*RESEARCH-UNDO research entry names, which are never displayed, and we don't want to clutter the context info for the regular strings with all the other dupes
 # - data/mods/campaign/* - FOR NOW: exclude other campaign mods (until we decide how best to handle their strings)
+#	-not \( -path 'data/mods/campaign/wz2100_camclassic/*' -prune \) \
+#	-not \( -path 'data/mods/campaign/*' -prune \) \
 find data -name '*.json' -type f \
 	-not \( -path 'data/mp/multiplay/maps/*' -prune \) \
 	-not \( -path 'data/base/guidetopics/*' -prune \) \
-	-not \( -path 'data/mods/campaign/wz2100_camclassic/*' -prune \) \
-	-not \( -path 'data/mods/campaign/*' -prune \) \
 	-exec \
 	python3 po/scripts/parseJson.py '{}' ';' |
 	python3 po/scripts/aggregateParsedJson.py > po/custom/fromJson.txt
@@ -36,11 +36,11 @@ EOF
 # Exclusions:
 # - po/guide/* - don't want to include guide topics or extracted guide strings (handled separately below)
 # - data/mods/campaign/* - FOR NOW: exclude other campaign mods (until we decide how best to handle their strings)
+#	-not \( -path 'data/mods/campaign/*' -prune \) \
 find lib src data po -type f \
 	-not \( -path 'po/guide/*' -prune \) \
-	-not \( -path 'data/mods/campaign/*' -prune \) \
 	|
-	grep -e '\.c\(pp\|xx\)\?$' -e 'data.*strings.*\.txt$' -e 'data.*sequenceaudio.*\.tx.$' -e '\.slo$' -e '\.rmsg$' -e 'po/custom/.*\.txt' -e '\.js$' |
+	grep -e '\.c\(pp\|xx\)\?$' -e 'data.*strings.*\.txt$' -e 'data.*sequenceaudio.*\.tx.$' -e '\.slo$' -e '\.rmsg$' -e 'po/custom/.*\.txt' -e '\.js$' -e '*\.txa$' |
 	grep -v -e '\.lex\.c\(pp\|xx\)\?$' -e '\.tab\.c\(pp\|xx\)\?$' -e 'lib/netplay/miniupnpc/*' -e 'lib/betawidget/*' -e '_moc\.' -e 'po/custom/files.js' |
 	grep -v -e '_lexer\.cpp' -e '_parser\.cpp' -e 'lib/[^/]*/3rdparty/.*' |
 	sort >> po/POTFILES.in
