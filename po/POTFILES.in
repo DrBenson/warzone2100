@@ -82,6 +82,7 @@ data/base/script/fastplay/fastdemo.js
 data/base/script/rules.js
 data/base/script/tutorial.js
 data/base/script/weather.js
+data/base/sequenceaudio/cam1/c001.txa
 data/base/sequenceaudio/cam1/c001.txt
 data/base/sequenceaudio/cam1/c001end.txt
 data/base/sequenceaudio/cam1/cam1ccom.txt
@@ -99,6 +100,7 @@ data/base/sequenceaudio/cam1/sub14anp.txt
 data/base/sequenceaudio/cam1/sub17fmv.txt
 data/base/sequenceaudio/cam1/sub1_4bn.txt
 data/base/sequenceaudio/cam1/sub1_5pl.txt
+data/base/sequenceaudio/cam2/c002.txa
 data/base/sequenceaudio/cam2/c2diif2.txt
 data/base/sequenceaudio/cam2/cam22fmv.txt
 data/base/sequenceaudio/cam2/cam22pl2.txt
@@ -114,6 +116,7 @@ data/base/sequenceaudio/cam2/cam2bcol.txt
 data/base/sequenceaudio/cam2/cam2dico.txt
 data/base/sequenceaudio/cam2/cam2diin.txt
 data/base/sequenceaudio/cam2/cam2dipl.txt
+data/base/sequenceaudio/cam3/c003.txa
 data/base/sequenceaudio/cam3/c003.txt
 data/base/sequenceaudio/cam3/c3ad2n2.txt
 data/base/sequenceaudio/cam3/c3ad2pl3.txt
@@ -129,12 +132,9 @@ data/base/sequenceaudio/cam3/cam3abf.txt
 data/base/sequenceaudio/cam3/cam3abpl.txt
 data/base/sequenceaudio/cam3/cam3ad2n.txt
 data/base/sequenceaudio/cam3/cam3bg.txt
+data/base/sequenceaudio/devastation.txa
 data/base/sequenceaudio/devastation.txt
 data/base/sequenceaudio/outro.txt
-<<<<<<< HEAD
-data/mods/campaign/fractured-kingdom/messages/strings/cam1strings.txt
-=======
->>>>>>> cf6b0d128 (Update Tranditional Chinese translation.)
 data/mods/campaign/fractured-kingdom/script/campaign/kingdom.js
 data/mods/campaign/fractured-kingdom/script/campaign/kingdomdata.js
 data/mods/campaign/fractured-kingdom/script/campaign/kingdomgroups.js
@@ -163,14 +163,7 @@ data/mods/campaign/fractured-kingdom/script/campaign/templates.js
 data/mods/campaign/fractured-kingdom/script/campaign/transitionTech.js
 data/mods/campaign/fractured-kingdom/script/rules.js
 data/mods/campaign/fractured-kingdom/script/weather.js
-<<<<<<< HEAD
-<<<<<<< HEAD
 data/mods/campaign/fractured-kingdom/sequenceaudio/cam1/intro.txa
-=======
->>>>>>> cf6b0d128 (Update Tranditional Chinese translation.)
-=======
-data/mods/campaign/fractured-kingdom/sequenceaudio/cam1/intro.txa
->>>>>>> f8bcec1e9 (Update po template files from new mods of 'fractured-kingdom' and 'reclamation' for translate.)
 data/mods/campaign/fractured-kingdom/sequenceaudio/hint.txt
 data/mods/campaign/fractured-kingdom/sequenceaudio/outfullae.txt
 data/mods/campaign/fractured-kingdom/sequenceaudio/outseg1.txt
@@ -498,6 +491,7 @@ src/effects.cpp
 src/emscripten_helpers.cpp
 src/faction.cpp
 src/feature.cpp
+src/formation.cpp
 src/fpath.cpp
 src/frontend.cpp
 src/game.cpp
